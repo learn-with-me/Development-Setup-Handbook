@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-  * [About Installations](about-installations.md)
+  * [About Installations](Introduction/about-installations.md)
 * [XCode](XCode/README.md)
 * [Homebrew](Homebrew/README.md)
 * [Git](Git/README.md)
@@ -22,4 +22,3 @@
 * [MySQL](mysql.md)
 * [C++](c++.md)
 * [Random](random.md)
-
