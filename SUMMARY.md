@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+  * [About Installations](about-installations.md)
 * [XCode](XCode/README.md)
 * [Homebrew](Homebrew/README.md)
 * [Git](Git/README.md)
