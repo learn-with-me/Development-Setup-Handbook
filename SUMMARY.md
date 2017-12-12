@@ -4,6 +4,7 @@
 * [XCode](XCode/README.md)
 * [Homebrew](Homebrew/README.md)
 * [Git](Git/README.md)
+  * [Cheatsheet](Git/cheatsheet.md)
 * [Python](Python/README.md)
 * [R](r.md)
 * [Node.js](Nodejs/README.md)
@@ -17,3 +18,4 @@
 * [MySQL](mysql.md)
 * [C++](c++.md)
 * [Random](random.md)
+
