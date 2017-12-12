@@ -6,6 +6,7 @@
 * [Git](Git/README.md)
   * [Cheatsheet](Git/cheatsheet.md)
 * [Python](Python/README.md)
+  * [Cheatsheet](Python/cheatsheet.md)
 * [R](r.md)
 * [Node.js](Nodejs/README.md)
 * [Java](Java/README.md)
