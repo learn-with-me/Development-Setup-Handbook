@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [XCode](xcode.md)
 * [Homebrew](homebrew.md)
-* [Git](git.md)
+* [Git](Git/README.md)
 * [Python](Python/README.md)
 * [R](r.md)
 * [Node.js](nodejs.md)
