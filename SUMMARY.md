@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [XCode](xcode.md)
+* [XCode](XCode/README.md)
 * [Homebrew](homebrew.md)
 * [Git](Git/README.md)
 * [Python](Python/README.md)
