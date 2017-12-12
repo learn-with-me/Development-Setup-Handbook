@@ -4,7 +4,7 @@
 * [XCode](xcode.md)
 * [Homebrew](homebrew.md)
 * [Git](git.md)
-* [Python](python.md)
+* [Python](Python/README.md)
 * [R](r.md)
 * [Node.js](nodejs.md)
 * [Java](java.md)
@@ -17,4 +17,3 @@
 * [MySQL](mysql.md)
 * [C++](c++.md)
 * [Random](random.md)
-
