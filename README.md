@@ -8,11 +8,9 @@ This book also acts as a reference guide to common commands. You may or may not 
 
 #### Deployment
 
-This book currently does not have the capability to bundle itself or auto-deploy. I am hoping to find some time in coming weeks to add that. Feel free to take it up if this is something that you'd like to contribute on.
+This book currently does not have the capability to bundle itself or auto-deploy. I am using GitBook to write the book. For some reason, build process is broken. I am hoping to find some time in coming weeks to add that. Feel free to take it up if this is something that you'd like to contribute on.
 
 #### Contributions
 
 We welcome all contributions. Please feel free to add support for languages/libraries that you would like to see as part of this book. I've tried to keep a similar format for all the topics. When contributing, it'll be really helpful if you could account for the same.
-
-
 
