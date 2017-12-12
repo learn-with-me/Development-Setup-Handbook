@@ -2,4 +2,17 @@
 
 * [Introduction](README.md)
 * [XCode](xcode.md)
+* [Homebrew](homebrew.md)
+* [Git](git.md)
+* [Python](python.md)
+* [R](r.md)
+* [Node.js](nodejs.md)
+* [Java](java.md)
+* [Go](go.md)
+* [Heroku](heroku.md)
+* [VirtualBox](virtualbox.md)
+* [Docker](docker.md)
+* [Vagrant](vagrant.md)
+* [Nginx](nginx.md)
+* [MySQL](mysql.md)
 
