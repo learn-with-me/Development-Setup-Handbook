@@ -30,11 +30,9 @@ Option 4
 ##### Package manager
 
 ```
-NPM
-====
-Most popular choice for Node as a package manager. Gets installed with Node automatically.
+1. NPM
+2. Yarn
 
-Yarn
 ====
 Upcoming popular choice as a package manager
 > brew install yarn                    // Installs Yarn. Also installs Node.js if not already installed.
@@ -62,15 +60,7 @@ https://nodejs.org/en/download/releases/
 The command nvm install 5.10.1 installs a stable release for us
 ```
 
-##### NPM Commands
-
-```
-npm -i
-npm install
-npm install --save
-npm install --save-dev
-npm install --save --save-exact cool-ascii-faces
-```
+##### 
 
 
 
