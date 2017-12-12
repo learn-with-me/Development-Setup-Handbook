@@ -15,6 +15,7 @@
 * [VirtualBox](Virtualbox/README.md)
 * [Docker](Docker/README.md)
 * [Vagrant](Vagrant/README.md)
+  * [Cheatsheet](Vagrant/cheatsheet.md)
 * [Nginx](nginx.md)
 * [MySQL](mysql.md)
 * [C++](c++.md)
