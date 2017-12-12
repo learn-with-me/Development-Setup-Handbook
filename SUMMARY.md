@@ -16,4 +16,5 @@
 * [Nginx](nginx.md)
 * [MySQL](mysql.md)
 * [C++](c++.md)
+* [Random](random.md)
 
