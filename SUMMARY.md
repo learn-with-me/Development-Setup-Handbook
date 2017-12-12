@@ -10,6 +10,7 @@
   * [Cheatsheet](Python/cheatsheet.md)
 * [R](R/README.md)
 * [Node.js](Nodejs/README.md)
+  * [NPM - Node Package Manager](Nodejs/npm.md)
 * [Java](Java/README.md)
 * [Go](Go/README.md)
 * [Heroku](Heroku/README.md)
