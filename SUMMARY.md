@@ -15,4 +15,5 @@
 * [Vagrant](vagrant.md)
 * [Nginx](nginx.md)
 * [MySQL](mysql.md)
+* [C++](c++.md)
 
