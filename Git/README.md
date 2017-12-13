@@ -1,5 +1,12 @@
 # Git
 
+##### Official Documentation
+
+```
+https://git-scm.com/documentation
+https://git-scm.com/book                # Free online book
+```
+
 ##### Installation
 
 ```
@@ -28,12 +35,7 @@ git config --global user.name "Anshul Goel"
 git config --global user.email "dec.anshul@gmail.com"
 ```
 
-##### Resources
-
-```
-Free online book
-https://git-scm.com/book
-```
+##### 
 
 
 
