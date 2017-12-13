@@ -16,6 +16,7 @@
   * [Yarn - Package Manager](Nodejs/yarn-package-manager.md)
   * [NVM - Node Version Manager](Nodejs/nvm-node-version-manager.md)
 * [Java](Java/README.md)
+  * [Maven](Java/maven.md)
 * [Go](Go/README.md)
 * [Heroku](Heroku/README.md)
 * [VirtualBox](Virtualbox/README.md)
