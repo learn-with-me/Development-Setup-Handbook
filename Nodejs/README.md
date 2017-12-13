@@ -34,25 +34,7 @@ Option 4
 2. Yarn
 ```
 
-##### NVM - Node version manager
-
-```
-Node Version Manager is a bash script used to manage multiple released Node.js versions.
-It allows you to perform operations like install, uninstall, switch version, etc.
-
-> curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
-OR
-> wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
-
-The script clones the nvm repository to ~/.nvm and adds the source line to your profile
-(~/.bash_profile, ~/.zshrc, ~/.profile, or ~/.bashrc).
-
-Install a Node release by choosing one from Node releases page
-https://nodejs.org/en/download/releases/
-The command nvm install 5.10.1 installs a stable release for us
-```
-
-##### 
+> Remember: You can manager multiple versions of Node via NVM \(Node Version Manager\)
 
 
 
