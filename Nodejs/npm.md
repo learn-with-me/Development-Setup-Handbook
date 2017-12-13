@@ -4,24 +4,52 @@ Most popular choice for Node as a package manager. It puts modules in place so t
 
 There is no need for additional installation steps. It gets installed automatically during Node.js installation.
 
-##### Commands - Info
+##### Official Documentation
+
+```
+https://docs.npmjs.com/
+https://www.npmjs.com/docs/orgs/
+https://npme.npmjs.com/docs/
+```
+
+##### Commands - Basic
 
 ```
 > npm --version                            // Display current version installed
 > npm i -g npm                             // Updates npm version if an update is available
 > npm help npm                             // Help on NPM
 > npm -l                                   // Displays full usage info
+
+> npm init                                 // Starting a new project
 ```
 
-##### Commands - Package installation
+##### Commands - Package management
 
 ```
 > npm install                              // Installs dependencies for the current project listed in its package.json
-> npm i                                    // Short-hand of npm install
+> npm i                                    // Short-hand/alias for npm install
 > npm i -g <package>                       // Installs a package globally
-> npm install --save <package_name>        // Installs package by name and adds it as a dependency in package.json
-> npm install --save-dev <package_name>    // Installs package by name and adds it as a DEV-dependency in package.json
-> npm install --save --save-exact cool-ascii-faces
+> npm install --save <package_name>        // Installs package and adds it as a dependency in package.json
+> npm install --save-dev <package_name>    // Installs package and adds it as a DEV-dependency in package.json
+> npm install --save-exact <package_name>  // Installs package and adds exact version as a dependency in package.json
+```
+
+##### Command - Updating
+
+```
+> npm update                                // Update production packages
+> npm update --dev                          // Update dev packages
+> npm update -g                             // Update global packages
+> npm update <package_name>                 // Update a specific package
+> npm outdated <package_name>               // Check for outdated packages
+```
+
+##### Command - Misc
+
+```
+> npm ls                                    // List packages
+> npm deprecate PACKAGE@"< 0.2.0" "critical bug fixed in v0.2.0"    // Adds warning for old versions
+> npm i /path/to/repo                       // Install from an absolute path
 ```
 
 
