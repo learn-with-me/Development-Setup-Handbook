@@ -34,27 +34,30 @@ $ conda create --name bio-env biopython      // Stack commands: create a new env
 ##### Finding Conda packages
 
 ```
-conda search <package>                // Use Conda to search for a package
-https://docs.anaconda.com/a           // See list of all packages in Anaconda
+$ conda search <package>                // Use Conda to search for a package
+$ https://docs.anaconda.com/a           // See list of all packages in Anaconda
 ```
 
 ##### Installing and Updating packages
 
 ```
-conda install jupyter                    // install a new package (Jupyter Notebook) in active env
-jupyter-notebook                         // Run an installed package (Jupyter Notebook)
-conda install --name bio-env toolz       // Install a new package toolz in a different env (bio-env)
-conda update scikit-learn                // Update a package in current environment
-conda install --channel conda-forge boltons      // Install a package from a specified channel                    
-pip install boltons                              // Install a package directly from PiPy in current env using Pip
-conda remove --name bio-env toolz boltons        // Remove one of more packages from a specified env
+$ conda install jupyter                    // install a new package (Jupyter Notebook) in active env
+$ jupyter-notebook                         // Run an installed package (Jupyter Notebook)
+$ conda install --name bio-env toolz       // Install a new package toolz in a different env (bio-env)
+$ conda update scikit-learn                // Update a package in current environment
+$ conda install --channel conda-forge boltons      // Install a package from a specified channel                    
+$ pip install boltons                              // Install a package directly from PiPy in current env using Pip
+$ conda remove --name bio-env toolz boltons        // Remove one of more packages from a specified env
 ```
 
 ##### Managing multiple versions of Python
 
 ```
-conda create --name py34 python=3.4    // Install different version of Python in a new environment named py34
-source activate py34                   // Switch to the new environment that has a different version of Python
-which -a python                        // Show the locations of all versions of Python that are currently in the path
-python --version                       // Show version information for the current active Python
+$ conda create --name py34 python=3.4    // Install different version of Python in a new environment named py34
+$ source activate py34                   // Switch to the new environment that has a different version of Python
+$ which -a python                        // Show the locations of all versions of Python that are currently in the path
+$ python --version                       // Show version information for the current active Python
 ```
+
+
+
