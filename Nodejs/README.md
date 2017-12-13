@@ -27,11 +27,23 @@ Option 4
     http://sourabhbajaj.com/mac-setup/Node.js/
 ```
 
+##### Official Documentation
+
+```
+
+```
+
 ##### Package manager
 
 ```
 1. NPM
 2. Yarn
+```
+
+##### Commands
+
+```
+
 ```
 
 > Remember: You can manager multiple versions of Node via NVM \(Node Version Manager\)
