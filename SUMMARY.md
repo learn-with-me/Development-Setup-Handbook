@@ -12,6 +12,7 @@
 * [Node.js](Nodejs/README.md)
   * [NPM - Node Package Manager](Nodejs/npm.md)
   * [Yarn - Package Manager](Nodejs/yarn-package-manager.md)
+  * [NVM - Node Version Manager](Nodejs/nvm-node-version-manager.md)
 * [Java](Java/README.md)
 * [Go](Go/README.md)
 * [Heroku](Heroku/README.md)
