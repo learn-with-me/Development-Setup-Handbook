@@ -32,14 +32,6 @@ Option 4
 ```
 1. NPM
 2. Yarn
-
-====
-Upcoming popular choice as a package manager
-> brew install yarn                    // Installs Yarn. Also installs Node.js if not already installed.
-> brew install yarn --without-node     // Installs Yarn without Node.js, if you use nvm or similar
-
-Add yarn to PATH via .bash_profile
-> export PATH="$PATH:/opt/yarn-[version]/bin"
 ```
 
 ##### NVM - Node version manager
