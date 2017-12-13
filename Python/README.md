@@ -21,4 +21,7 @@ $ brew install python3        // Installs Python 3.x
 $ python -m site --user-base            // Find the user base binary directory
 ```
 
-#####
+#### 
+
+
+
