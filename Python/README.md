@@ -1,5 +1,12 @@
 # Python
 
+##### Official Documentation
+
+```
+https://docs.python.org/2.7/
+https://docs.python.org/3.5/
+```
+
 ##### Installation
 
 ```
@@ -12,25 +19,6 @@ MacOS comes pre-installed with Python 2.x. If something goes wrong
 
 ```
 > python -m site --user-base            // Find the user base binary directory
-```
-
-> Homebrew doesn't know how to install pip or distribute. Luckily both can be easily installed with python scripts available on web.
-
-##### Package Manager
-
-```
-There are few package managers specific for Python, and pip is the preferred one.
-
-Installation
-> curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
-> python get-pip.py
-
-Version check
-> pip -V
-> pip2 -V
-> pip3 -V
-
-> pip install -U pip            // Upgrading pip
 ```
 
 ##### Packages

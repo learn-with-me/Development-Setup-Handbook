@@ -8,6 +8,7 @@
   * [Cheatsheet](Git/cheatsheet.md)
 * [Python](Python/README.md)
   * [Cheatsheet](Python/cheatsheet.md)
+  * [Pip - Package Manager](Python/pip-package-manager.md)
 * [R](R/README.md)
 * [Node.js](Nodejs/README.md)
   * [NPM - Node Package Manager](Nodejs/npm.md)
