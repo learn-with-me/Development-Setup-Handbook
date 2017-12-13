@@ -27,31 +27,31 @@ $ npm config ls -l                         // List all npm configuration flags (
 ##### Commands - Package management
 
 ```
-> npm install                              // Installs dependencies for the current project listed in its package.json
-> npm i                                    // Short-hand/alias for npm install
-> npm i -g <package>                       // Installs a package globally
-> npm install --save <package_name>        // Installs package and adds it as a dependency in package.json
-> npm install --save-dev <package_name>    // Installs package and adds it as a DEV-dependency in package.json
-> npm install --save-exact <package_name>  // Installs package and adds exact version as a dependency in package.json
+$ npm install                              // Installs dependencies for the current project listed in its package.json
+$ npm i                                    // Short-hand/alias for npm install
+$ npm i -g <package>                       // Installs a package globally
+$ npm install --save <package_name>        // Installs package and adds it as a dependency in package.json
+$ npm install --save-dev <package_name>    // Installs package and adds it as a DEV-dependency in package.json
+$ npm install --save-exact <package_name>  // Installs package and adds exact version as a dependency in package.json
 $ npm uninstall <package>
 ```
 
 ##### Command - Updating
 
 ```
-> npm update                                // Update production packages
-> npm update --dev                          // Update dev packages
-> npm update -g                             // Update global packages
-> npm update <package_name>                 // Update a specific package
-> npm outdated <package_name>               // Check for outdated packages
+$ npm update                                // Update production packages
+$ npm update --dev                          // Update dev packages
+$ npm update -g                             // Update global packages
+$ npm update <package_name>                 // Update a specific package
+$ npm outdated <package_name>               // Check for outdated packages
 ```
 
 ##### Command - Misc
 
 ```
-> npm ls                                    // List packages
-> npm deprecate PACKAGE@"< 0.2.0" "critical bug fixed in v0.2.0"    // Adds warning for old versions
-> npm i /path/to/repo                       // Install from an absolute path
+$ npm ls                                    // List packages
+$ npm deprecate PACKAGE@"< 0.2.0" "critical bug fixed in v0.2.0"    // Adds warning for old versions
+$ npm i /path/to/repo                       // Install from an absolute path
 ```
 
 ##### Reference
@@ -59,6 +59,3 @@ $ npm uninstall <package>
 ```
 https://gist.github.com/AvnerCohen/4051934
 ```
-
-
-

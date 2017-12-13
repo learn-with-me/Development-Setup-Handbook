@@ -28,7 +28,4 @@ $ pip install biopython        # Most commonly used Biocomputing Python library
 $ pip install jupyter          # IPython Notebook is part of Jupyter now. Another populate Biocomputing tool
 ```
 
-##### 
-
-
-
+#####

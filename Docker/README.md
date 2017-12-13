@@ -15,8 +15,8 @@ docker.com/getdocker                             // Download OS specific version
 https://docs.docker.com/engine/installation      // OS-specific instructions. For production.
 
 Option 2:
-> brew cask install docker                       // Install Docker
-> brew cask reinstall docker                     // Reinstall if already installed
+$ brew cask install docker                       // Install Docker
+$ brew cask reinstall docker                     // Reinstall if already installed
 
 If you are unable to meet system requirements as stated above, you'll have to download the toolbox for additional setup
 ```
@@ -24,10 +24,7 @@ If you are unable to meet system requirements as stated above, you'll have to do
 ##### Verification
 
 ```
-> docker --version       // Display installed version number
-> docker version         // Display more details version information with client and server
-> docker info            // Display system-wide information
+$ docker --version       // Display installed version number
+$ docker version         // Display more details version information with client and server
+$ docker info            // Display system-wide information
 ```
-
-
-

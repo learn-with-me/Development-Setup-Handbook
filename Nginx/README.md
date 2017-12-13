@@ -4,7 +4,7 @@
 
 ```
 Option 1
-> brew install nginx
+$ brew install nginx
 ```
 
 ##### Verification
@@ -20,6 +20,3 @@ brew services start nginx                     // Start the server as a backgroun
 Once you start the server, navigate to
 http://localhost:8080
 ```
-
-
-

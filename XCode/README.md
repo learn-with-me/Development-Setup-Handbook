@@ -7,15 +7,12 @@ It is no longer necessary to download the full Xcode IDE from the Mac App Store.
 ##### Installation
 
 ```
-> xcode-select --install
+$ xcode-select --install
 ```
 
 ##### Verification
 
 ```
-> xcode-select -p
+$ xcode-select -p
 Should output /Applications/Xcode.app/Contents/Developer
 ```
-
-
-
