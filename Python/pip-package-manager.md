@@ -15,8 +15,20 @@ $ pip -V
 $ pip2 -V
 $ pip3 -V
 
-$ pip install -U pip            // Upgrading pip
+$ pip install -U pip            # Upgrading pip
 ```
+
+##### Packages
+
+```
+$ pip install numpy            # Vectors and matrices in Python
+$ pip install scipy            # Other scientific computing tools
+$ pip install pandas           # Dataframes in Python!
+$ pip install biopython        # Most commonly used Biocomputing Python library
+$ pip install jupyter          # IPython Notebook is part of Jupyter now. Another populate Biocomputing tool
+```
+
+##### 
 
 
 

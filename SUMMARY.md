@@ -9,6 +9,7 @@
 * [Python](Python/README.md)
   * [Cheatsheet](Python/cheatsheet.md)
   * [Pip - Package Manager](Python/pip-package-manager.md)
+  * [Virtual Environment](Python/virtual-environment.md)
 * [R](R/README.md)
 * [Node.js](Nodejs/README.md)
   * [NPM - Node Package Manager](Nodejs/npm.md)
