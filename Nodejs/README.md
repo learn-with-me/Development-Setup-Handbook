@@ -25,6 +25,8 @@ Option 4
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.7/install.sh | bash
     // Installs or updated NVM (Node Version Manager)
     http://sourabhbajaj.com/mac-setup/Node.js/
+    
+Installation location: /usr/local/bin/node and /usr/local/bin/npm
 ```
 
 ##### Official Documentation
@@ -52,3 +54,6 @@ https://nodejs.org/en/get-involved/
 ```
 
 > Remember: You can manager multiple versions of Node via NVM \(Node Version Manager\)
+
+
+
