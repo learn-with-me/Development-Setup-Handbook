@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
   * [About Installations](_Introduction/about-installations.md)
+  * [Terminal Cheatsheet](_Introduction/terminal-cheatsheet.md)
 * [XCode](XCode/README.md)
 * [Homebrew](Homebrew/README.md)
 * [Git](Git/README.md)
