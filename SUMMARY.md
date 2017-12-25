@@ -30,7 +30,7 @@
 * [C++](C++/README.md)
 * [DB - PostgreSQL](db-postgresql.md)
   * [Cheatsheet](db-postgresql/cheatsheet.md)
-* [Random](random.md)
 * [DB - Cassandra](db-cassandra.md)
 * [DB - Neo4j](db-neo4j.md)
+* [Random](random.md)
 
