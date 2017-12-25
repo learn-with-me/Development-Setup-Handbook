@@ -78,5 +78,11 @@ https://www.pgadmin.org/docs/pgadmin4/dev/index.html
 
     if not installed via homebrew, it should looks like `com.postgresapp.Postgres2LoginHelper.plist`
 
+##### Tutorial
+
+```
+http://www.postgresqltutorial.com/
+```
+
 
 
