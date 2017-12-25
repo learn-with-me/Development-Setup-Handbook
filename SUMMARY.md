@@ -29,5 +29,6 @@
 * [MySQL](MySQL/README.md)
 * [C++](C++/README.md)
 * [DB - PostgreSQL](db-postgresql.md)
+  * [Cheatsheet](db-postgresql/cheatsheet.md)
 * [Random](random.md)
 
