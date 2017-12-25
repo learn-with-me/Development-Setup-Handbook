@@ -4,26 +4,26 @@
 
 ##### Installation
 
-```
-Option 1:
-=========
-Download and install from http://postgresapp.com/
-A native macOS app that runs in the menubar without the need of an installer.
-(Another graphical installer alternative: https://www.bigsql.org/postgresql/installers.jsp)
+    Option 1:
+    =========
+    Download and install from http://postgresapp.com/
+    A native macOS app that runs in the menubar without the need of an installer.
+    (Another graphical installer alternative: https://www.bigsql.org/postgresql/installers.jsp)
 
-# Configure PATH
-sudo mkdir -p /etc/paths.d &&
-    echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
-OR
-PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+    # Configure PATH
+    sudo mkdir -p /etc/paths.d &&
+        echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+    OR
+    PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
-If you are going to use the app, it is recommended to uninstall other PostgreSQL installations due to port conflicts.
+    If you are going to use the app, it is recommended to uninstall other PostgreSQL installations due to port conflicts.
 
-Option 2:
-=========
-$ brew install postgres
-The database will be initialized during installation, so there isn’t a need to run initdb
-```
+    Option 2:
+    =========
+    $ brew install postgres
+    The database will be initialized during installation, so there isn’t a need to run initdb
+
+    Here is a quick way of knowing if Postgres was installed via brew, brew creates this directory `/usr/local/var/postgres`
 
 ##### Uninstallation
 
@@ -54,6 +54,18 @@ $ brew services restart postgresql  # Restart the service
 
 pg_ctl is a utility to initialize, start, stop, or control a PostgreSQL server.
 $ pg_ctl --help                     # Display command options
+```
+
+##### Popular GUI
+
+```
+Postico - https://eggerapps.at/postico/
+Modern PostgreSQL client for Mac
+
+pgAdmin - https://www.pgadmin.org/
+Most popular and feature rich Open Source administration and development platform for PostgreSQL. Designed to run on
+both client machines and on deployed servers, pgAdmin is capable of handling advanced cases that Postico cannot.
+https://www.pgadmin.org/docs/pgadmin4/dev/index.html
 ```
 
 

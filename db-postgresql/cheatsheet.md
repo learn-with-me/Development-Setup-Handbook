@@ -19,6 +19,7 @@ $ postgres              # executes the SQL server itself
 $ pg_dump               # dumps the contents of a single database to a file
 $ pg_dumpall            # dumps all databases to a file
 $ psql                  # Lets you carry administrative functions without needing to know their actual SQL commands
+$ initdb                # initialize a PostgreSQL data directory
 ```
 
 ##### Configuration
