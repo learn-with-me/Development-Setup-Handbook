@@ -49,6 +49,7 @@ $ psql -h localhost     # Open psql command line, if installed correctly
 ##### Manage DB Service
 
 ```
+If installed via Homebrew
 $ brew services start postgresql    # Starts as a background service
 $ brew services stop postgresql     # Stop the service manually
 $ brew services restart postgresql  # Restart the service
