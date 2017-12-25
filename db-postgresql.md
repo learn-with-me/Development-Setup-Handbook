@@ -23,7 +23,8 @@
     $ brew install postgres
     The database will be initialized during installation, so there isn’t a need to run initdb
 
-    Here is a quick way of knowing if Postgres was installed via brew, brew creates this directory `/usr/local/var/postgres`
+    Here is a quick way of knowing if Postgres was installed via brew, brew initializes the database during installation
+    by `postgres -D /usr/local/var/postgres` this creating this directory `/usr/local/var/postgres`
 
 ##### Uninstallation
 
@@ -67,6 +68,14 @@ Most popular and feature rich Open Source administration and development platfor
 both client machines and on deployed servers, pgAdmin is capable of handling advanced cases that Postico cannot.
 https://www.pgadmin.org/docs/pgadmin4/dev/index.html
 ```
+
+##### Configure to start automatically
+
+    $ mkdir -p ~/Library/LaunchAgents
+    $ ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+    $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+
+    if not installed via homebrew, it should looks like `com.postgresapp.Postgres2LoginHelper.plist`
 
 
 

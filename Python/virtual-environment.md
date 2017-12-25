@@ -12,16 +12,22 @@ named venv), that will be managed by virtualenv.
 The advantage is that different projects might require different versions of packages, and it would be hard to manage
 that if you install packages globally. It also allows you to keep your global /usr/local/lib/python2.7/site-packages
 folder clean, containing only critical or big packages that you always need (like IPython, Numpy).
+```
 
+```
+Installation
+============
 $ pip install virtualenv                    // Installation
 $ virtualEnv --version                      // Verify the version
+
+Usage
+=====
 $ cd myProject && virtualenv venv           // Setup virtual env for the project myProject
 $ virtualenv venv --system-site-packages    // Have virtualenv inherit globally installed packages
+Note: These commands create a venv sub-directory in your project where everything is installed.
 
-Note: These commands create a venv sub-directory in your project where everything is installed. You need to activate it
-first though (in every terminal where you are working on your project).
+You need to activate it first though (in every terminal where you are working on your project).
 $ source venv/bin/activate                  // Active virtual environment
-
 You should see a (venv) appear at the beginning of your terminal prompt indicating that you are working inside the
 virtualenv. Now when you install anything, it will be installed in the venv folder, and not conflict with other projects
 
@@ -53,3 +59,6 @@ Preferably install big packages (like Numpy), or ones you always use (like IPyth
     $ source /usr/local/bin/virtualenvwrapper.sh                // Shell startup file
 
     Instructions:: http://virtualenvwrapper.readthedocs.io/en/latest/index.html
+
+
+
