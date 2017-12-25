@@ -18,7 +18,7 @@ $ dropdb                # deletes a database
 $ postgres              # executes the SQL server itself
 $ pg_dump               # dumps the contents of a single database to a file
 $ pg_dumpall            # dumps all databases to a file
-$ psql                  # we recognize that one!
+$ psql                  # Lets you carry administrative functions without needing to know their actual SQL commands
 ```
 
 ##### Configuration
@@ -39,17 +39,24 @@ $ psql                  # we recognize that one!
 Setting password
 > \password <role>        # It'll ask you to enter the password
 > \password postgres
+```
 
-Creation new user
+##### Creating a new user
+
+```
 > CREATE ROLE admin WITH LOGIN PASSWORD 'admin'
 > ALTER ROLE admin CREATEDB
-
-Creation new user: Shortened version
+OR
 > createuser admin --createdb
+```
 
-Creating database
+##### Create a new Database
+
+```
 > CREATE DATABASE databasename;
 > CREATE DATABASE super_awesome_application;
+OR
+> createdb super_awesome_application -U admin
 
 Once a database is created, you need to add at least one user who has permission to access the database (aside from the
 super users, who can access everything).
@@ -58,9 +65,10 @@ super users, who can access everything).
 > \list                       // Lists all the databases in Postgres
 > \connect <database_name>    // Connect to a specific database
 > \dt                         // List the tables in the currently connected database
-```
 
-##### 
+Rename a database
+> ALTER DATABASE super_awesome_application RENAME TO even_more_awesome_application;
+```
 
 
 
