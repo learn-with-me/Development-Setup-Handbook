@@ -3,7 +3,8 @@
 ##### Commands
 
     which command        // Returns the location of the binary installed
-    env                  // Prints out all the PATH
+    env                  // Prints out all the environment variables
+    sudo env             // Prints out all the environment variables for sudo not the current user
     command -v ls        // Returns the location of the binary installed. Seems same as `which` command
     hostname
 
@@ -31,8 +32,6 @@
     sudo a2ensite vboxsf
     sudo a2dissite 000-default
     service apache2 reload
-
-
 
 
 
