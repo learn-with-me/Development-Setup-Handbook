@@ -55,7 +55,6 @@ Other Commands
 > db.getCollection("myCollection")
 > db.getCollection("myCollection").find()        # same as db.myCollection.find()
 > quit()                                         # Exit the shell
-
 ```
 
 
