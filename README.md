@@ -6,6 +6,18 @@ This book also acts as a reference guide to common commands. You may or may not 
 
 > Source of inspiration: I've been writing a single book about everything for a while. The idea of breaking down the book into smaller components came from running across Kyle Simpson's book called "You don't know JS". I really liked the idea, its neat, manageable. Hence this book.
 
+#### Cheatsheet
+
+This book does contain handy cheatsheet, which will be maintained to our best efforts. By no means this is meant to cover all versions and all aspects but to give you a detailed idea of handling a technology development.
+
+```
+1. Original docs. They are the best, may or may not be written very well, but usually give you everything required.
+2. MacOS App - Dash (collective documentation of multiple languages)
+3. Personalized docs. What I have here. I find it fastest approach for me.
+
+So, whatever works, is the best for you. You'll need to figure that out by experience.
+```
+
 #### Deployment
 
 This book currently does not have the capability to bundle itself or auto-deploy. I am using GitBook to write the book. For some reason, build process is broken. I am hoping to find some time in coming weeks to add that. Feel free to take it up if this is something that you'd like to contribute on.
