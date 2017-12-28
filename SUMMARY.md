@@ -20,6 +20,7 @@
   * [Maven](Java/maven.md)
 * [Go](Go/README.md)
 * [Heroku](Heroku/README.md)
+* [Google Cloud](google-cloud.md)
 * [VirtualBox](Virtualbox/README.md)
 * [Docker](Docker/README.md)
   * [Cheatsheet](Docker/cheatsheet.md)
