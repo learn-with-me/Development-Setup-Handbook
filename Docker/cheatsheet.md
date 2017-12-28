@@ -31,6 +31,7 @@ $ docker push myrepo/myalpine:3.4               // Push an image to a registry
 
 ```
 $ docker run <image>                    // Creates a new container from the image and start it
+$ docker run -d -p 80:80 --name webserver nginx        // Start a Dockerized web server
 $ docker start web                      // Start an existing container
 $ docker stop web                       // Stop a running container through SIGTERM
 $ docker kill web                       // Stop a running container through SIGKILL

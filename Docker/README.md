@@ -27,4 +27,10 @@ If you are unable to meet system requirements as stated above, you'll have to do
 $ docker --version       // Display installed version number
 $ docker version         // Display more details version information with client and server
 $ docker info            // Display system-wide information
+
+$ docker-compose --version    // Docker Compose
+$ docker-machine --version    // Docker Machine
 ```
+
+
+
