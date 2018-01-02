@@ -48,17 +48,34 @@ $ brew uninstall [insert package name here]
 Remove a package you previously installed.
 ```
 
-#### Add-ons
+#### Add-ons : Cask
+
+    Homebrew typically deals with command line software. Most of the software are distributed under open source license.
+
+    brew cask -> is an extension that allows management of graphical applications through Cask project
+    $ brew tap caskroom/cask        // Install Homebrew-Cask
+    $ brew cask list                // List packages installed by Cask
+    $ brew cask install <package>   // Install a package via Cask
+    $ brew cask reinstall <package> // Installs a package again via Cask
+    $ brew cask uninstall <package> // Uninstall an installed package via Cask
+    https://caskroom.github.io/search        // Search for Cask packages
+
+    Searching Casks
+    https://github.com/caskroom/homebrew-cask/tree/master/Casks
+    Type `t` and then the name of the package you are looking for. It'll filter the formula.
+
+    Steps to install a specific version
+    1. Uninstall the package
+    2. Go to the *.rb file on Github
+    3. Get the file history
+    4. Open the complete within the hash of the version you are looking to install
+       Example: https://github.com/caskroom/homebrew-cask/blob/e8816187ae43f52b598f15f45b3453e22727ac99/Casks/virtualbox.rb
+    5. Install just like any other package
+    Refer: https://www.jverdeyen.be/mac/downgrade-brew-cask-application/
+
+#### Add-ons : Tap
 
 ```
-Homebrew typically deals with command line software. Most of the software are distributed under open source license.
-
-brew cask -> is an extension that allows management of graphical applications through Cask project
-$ brew tap caskroom/cask        // Install Homebrew-Cask
-$ brew cask list                // List packages installed by Cask
-$ brew cask install <package>   // Install a package via Cask
-https://caskroom.github.io/search        // Search for Cask packages
-
 brew tap -> allows Homebrew to tap into another repository of formulae. Taps are external sources of Homebrew formulae
 and/or external commands. They can be created by anyone to provide their own formulae and/or external commands to any
 Homebrew user.
