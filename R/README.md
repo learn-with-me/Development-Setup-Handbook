@@ -7,10 +7,13 @@ $ brew tap homebrew/science
 $ brew install R
 
 You will probably also want to install a few of Hadley Wickham’s packages
-$ R                            // Launches R
-    $ install.packages("ggplot2")
-    $ install.packages("dplyr")
-    $ install.packages("tidyr")
+$ R                                  // Launches R
+    > install.packages("ggplot2")    // Offers a powerful graphics language for creating elegant and complex plots
+    > install.packages("dplyr")      // Makes describing the steps and program execution, fast and easy
+    > install.packages("tidyr")      // Makes it easy to tidy your data
+
+When you exit the R prompt, make sure to save the workspace if you want to avoid downloading the same packages
+again in future.
 ```
 
 ##### Install RStudio
@@ -32,3 +35,6 @@ experienced with MacTeX, go with the full MacTeX installation rather than BasicT
 Download and install from:
 https://tug.org/mactex/
 ```
+
+
+
