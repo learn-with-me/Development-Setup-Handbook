@@ -12,8 +12,8 @@ $ R                                  // Launches R
     > install.packages("dplyr")      // Makes describing the steps and program execution, fast and easy
     > install.packages("tidyr")      // Makes it easy to tidy your data
 
-When you exit the R prompt, make sure to save the workspace if you want to avoid downloading the same packages
-again in future.
+When you exit the R prompt, make sure to save the workspace image if you want to avoid downloading the same
+packages again in future.
 ```
 
 ##### Install RStudio
