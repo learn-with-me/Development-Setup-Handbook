@@ -8,6 +8,12 @@
     command -v ls        // Returns the location of the binary installed. Seems same as `which` command
     hostname
 
+    # Find and kill a process
+    $ sudo lsof -i :8080 | grep LISTEN        # Find out what program listens on port 8080
+    $ ps -ef 42975                            # Name of process does not tell enough. Now find by port number for details.
+    $ kill -9 <PID>                           # Either kill the process by PID directly after step 1 or come through step 2
+
+
     tee    - utility copies standard input to standard output, making a copy in zero or more files. Output is unbuffered.
 
     dash               // built-in command interpreter
