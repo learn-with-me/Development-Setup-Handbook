@@ -57,5 +57,12 @@ Other Commands
 > quit()                                         # Exit the shell
 ```
 
+##### MongoDB Compass
+
+```
+Download and install Compass from the following link or google your way through
+https://www.mongodb.com/download-center?filter=enterprise#compass
+```
+
 
 
