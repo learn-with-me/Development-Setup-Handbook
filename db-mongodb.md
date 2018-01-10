@@ -45,6 +45,7 @@ mongo interprets the content of .mongorc.js before displaying the prompt for the
 
 ```
 > db                    # Displays the database you are using
+> help                  # Displays all the commands available
 > show dbs              # List available databases
 > use <database>        # Switch database. This creates a new DB if it does not exist
 
