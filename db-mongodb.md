@@ -64,5 +64,13 @@ Download and install Compass from the following link or google your way through
 https://www.mongodb.com/download-center?filter=enterprise#compass
 ```
 
+##### MongoDB Atlas
+
+```
+MongoDB as a service. There is no local setup.
+You can access the service at the url below after you login.
+https://cloud.mongodb.com
+```
+
 
 
