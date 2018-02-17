@@ -44,27 +44,17 @@ $ docker exec -it web bash              // Create a new bash process inside the 
 $ docker logs --tail 100 web            // Print the last 100 lines of a container's logs
 ```
 
-##### Docker Machine \(not required on Unix machine\)
-
-```
-$ docker-machine --version
-$ docker-machine env myhost
-$ eval $(docker-machine env myhost)                   // Command to configure your shell
-$ docker-machine create --driver=virtualbox myhost    // Create a docker host on a computer or cloud provider
-$ docker-machine create -d virtualbox myhost          // Same command as above
-```
-
 ##### Container Commands
 
 ```
 DOCKER_HIDE_LEGACY_COMMANDS=true docker --help
 
 docker image ls
-docker container ls
+docker container ls                                         # List all the running containers
 docker container ls -a
 
-docker container run -it openjdk
-docker container run -d jboss/wildfly
+docker container run -it openjdk                            # Run container in an interactive mode
+docker container run -d jboss/wildfly                       # Run container in a detached mode
 docker container run -d --name web jboss/wildfly
 docker container run -it --name web jboss/wildfly bash       [This is to override the default command and run your own]
 docker container run -it --name web -P jboss/wildfly             [To let the container pick a random port]
@@ -74,10 +64,20 @@ docker container logs <container_name>
 docker container logs unruffled_easley
 docker container logs unruffled_easley -f         [Tailing the logs]
 
-docker container stop <container-id>
+docker container stop <container-id>                        # Stop the container
 docker container stop bb655989064b
-docker container rm bb655989064b
+docker container rm bb655989064b                            # Remove the container
 docker container rm -f bb655989064b
+```
+
+##### Docker Machine \(not required on Unix machine\)
+
+```
+$ docker-machine --version
+$ docker-machine env myhost
+$ eval $(docker-machine env myhost)                   // Command to configure your shell
+$ docker-machine create --driver=virtualbox myhost    // Create a docker host on a computer or cloud provider
+$ docker-machine create -d virtualbox myhost          // Same command as above
 ```
 
 ##### Reference
