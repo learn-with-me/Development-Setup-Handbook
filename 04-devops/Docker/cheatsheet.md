@@ -15,6 +15,8 @@ $ docker <command> --help        // Docker Manual for specific command
 ```
 $ docker build -t myapp:1.0                    // Build an image from Dockerfile in the current directory with a tag
 $ docker images                                // List all images locally stored with Docker engine
+$ docker image ls                              // List all images locally stored with Docker engine
+$ docker image ls -a                           // List all images (including hidden)
 $ docker rmi alpine:3.4                        // Delete an image from local image store
 ```
 
@@ -56,18 +58,20 @@ docker container ls -a
 docker container run -it openjdk                            # Run container in an interactive mode
 docker container run -d jboss/wildfly                       # Run container in a detached mode
 docker container run -d --name web jboss/wildfly
-docker container run -it --name web jboss/wildfly bash       [This is to override the default command and run your own]
+docker container run -it --name web jboss/wildfly bash      # This is to override the default command and run your own
 docker container run -it --name web -P jboss/wildfly             [To let the container pick a random port]
 docker container run -it --name web -p 8080:8080 jboss/wildfly   [To let the container pick the port passed in]
 
 docker container logs <container_name>
 docker container logs unruffled_easley
-docker container logs unruffled_easley -f         [Tailing the logs]
+docker container logs unruffled_easley -f                   # Tailing the logs
 
 docker container stop <container-id>                        # Stop the container
 docker container stop bb655989064b
 docker container rm bb655989064b                            # Remove the container
-docker container rm -f bb655989064b
+docker container rm -f bb655989064b                         # Stop and remove the container in a single command
+
+You need to be able to expose ports and attach volumes , so that it can deploy .war files to it.
 ```
 
 ##### Docker Machine \(not required on Unix machine\)
