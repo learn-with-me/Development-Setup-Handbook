@@ -48,31 +48,33 @@ $ docker logs --tail 100 web            // Print the last 100 lines of a contain
 
 ##### Container Commands
 
-```
-DOCKER_HIDE_LEGACY_COMMANDS=true docker --help
+    DOCKER_HIDE_LEGACY_COMMANDS=true docker --help
 
-docker image ls
-docker container ls                                         # List all the running containers
-docker container ls -a
+    docker image ls
+    docker container ls                                         # List all the running containers
+    docker container ls -a
 
-docker container run -it openjdk                            # Run container in an interactive mode
-docker container run -d jboss/wildfly                       # Run container in a detached mode
-docker container run -d --name web jboss/wildfly
-docker container run -it --name web jboss/wildfly bash      # This is to override the default command and run your own
-docker container run -it --name web -P jboss/wildfly             [To let the container pick a random port]
-docker container run -it --name web -p 8080:8080 jboss/wildfly   [To let the container pick the port passed in]
+    docker container run -it openjdk                            # Run container in an interactive mode
+    docker container run -d jboss/wildfly                       # Run container in a detached mode
+    docker container run -d --name web jboss/wildfly
+    docker container run -it --name web jboss/wildfly bash      # This is to override the default command and run your own
+    docker container run -it --name web -P jboss/wildfly             [To let the container pick a random port]
+    docker container run -it --name web -p 8080:8080 jboss/wildfly   [To let the container pick the port passed in]
 
-docker container logs <container_name>
-docker container logs unruffled_easley
-docker container logs unruffled_easley -f                   # Tailing the logs
+    # Mount local directory on container
+    docker container run -it --name web -p 8080:8080
+        -v `pwd`/webapp.war:/opt/jboss/wildfly/standalone/deployments/webapp.war jboss/wildfly
 
-docker container stop <container-id>                        # Stop the container
-docker container stop bb655989064b
-docker container rm bb655989064b                            # Remove the container
-docker container rm -f bb655989064b                         # Stop and remove the container in a single command
+    docker container logs <container_name>
+    docker container logs unruffled_easley
+    docker container logs unruffled_easley -f                   # Tailing the logs
 
-You need to be able to expose ports and attach volumes , so that it can deploy .war files to it.
-```
+    docker container stop <container-id>                        # Stop the container
+    docker container stop bb655989064b
+    docker container rm bb655989064b                            # Remove the container
+    docker container rm -f bb655989064b                         # Stop and remove the container in a single command
+
+    You need to be able to expose ports and attach volumes , so that it can deploy .war files to it.
 
 ##### Docker Machine \(not required on Unix machine\)
 
