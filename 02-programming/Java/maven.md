@@ -22,6 +22,9 @@ $ mvn -v
 
 Option 2
 $ brew install maven@3.3
+
+Option 3
+$ brew install maven
 ```
 
 ##### 
