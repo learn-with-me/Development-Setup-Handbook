@@ -49,6 +49,7 @@ Remove a package you previously installed.
 
 $ brew services start [service name]
 brew services start tomcat
+catalina --version
 ```
 
 #### Add-ons : Cask
