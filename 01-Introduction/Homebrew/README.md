@@ -46,6 +46,9 @@ After you install a package, you get a screenful of information or configuration
 
 $ brew uninstall [insert package name here]
 Remove a package you previously installed.
+
+$ brew services start [service name]
+brew services start tomcat
 ```
 
 #### Add-ons : Cask
