@@ -10,6 +10,7 @@
     Option 2
     $ brew cask install java
     $ /usr/libexec/java_home        // Print out Java_Home location
+    $ brew cask install homebrew/cask-versions/java8    # Installs Java 8
 
     NOTE:
     =====
@@ -50,7 +51,7 @@ $ /usr/libexec/java_home -V 2>&1 | grep -E "\d\.\d\.\d(_\d+)?.*," | cut -d , -f 
 
 ```
 Java REPL
-$ brew install javarepl
+$ brew install javarepl            # Java REPL. Requires Java 8
 ```
 
 ## 
