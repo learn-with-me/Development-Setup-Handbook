@@ -14,7 +14,8 @@
     NOTE:
     =====
     Before you opt for option 2, it needs more info here.
-    brew made tools.jar missing from the lib folder for version 9.x. There is something different about this installation.
+    brew made tools.jar missing from the lib folder for version 9.x. There is something different about this
+    installation.
 
     JRE Path: /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/
     JDK Path: /Library/Java/JavaVirtualMachines/jdk1.x.x_xxx.jdk/Contents/Home/
