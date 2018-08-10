@@ -44,3 +44,7 @@
 * [Random](random.md)
 * [Linux](linux.md)
 * [Windows](windows.md)
+  * [Basic Installation](windows/basic-installation.md)
+    * [Package Managers](windows/basic-installation/package-managers.md)
+    * [Git](windows/basic-installation/chocolatey.md)
+
