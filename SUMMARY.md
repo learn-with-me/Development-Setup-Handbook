@@ -41,3 +41,6 @@
       * [Cheatsheet](01-MacBook/04-devops/google-cloud/cheatsheet.md)
 * [Nginx](Nginx/README.md)
 * [Random](random.md)
+* Linux
+* [Windows](windows.md)
+
