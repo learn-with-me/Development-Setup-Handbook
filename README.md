@@ -1,17 +1,18 @@
-# Mac OSX Setup
+# Development Setup
 
-Everything you need to know about given technologies to get started with developing applications locally. Goal of writing this book is to documenting about 90% of the setup issues that we normally come across and have them be least of our problems.
+Everything you need to know about given technologies to get started with developing applications locally. Goal of writing this book is to documenting most of the setup issues that we normally come across and have them be least of our problems.
 
-This book also acts as a reference guide to common commands. You may or may not have the latest and greatest development machine, however this book is going to help you jump right in and start working without basic issues.
+This book is divided into separate sections per Operating System, and acts as a reference guide to common commands. You may or may not have the latest and greatest development machine, however this book is going to help you jump right in and start working without basic issues.
 
-> Source of inspiration: I've been writing a single book about everything for a while. The idea of breaking down the book into smaller components came from running across Kyle Simpson's book called "You don't know JS". I really liked the idea, its neat, manageable. Hence this book.
+> Source of inspiration: I've been making huge ass notes about everything for a while. Having the need to refer these notes over and over again originated the idea of writing it into a book instead. The idea of breaking down the book into smaller components came from running across Kyle Simpson's book called "You don't know JS". I really liked the idea, its neat, manageable. Hence this book.
 
 #### Cheatsheet
 
 This book does contain handy cheatsheet, which will be maintained to our best efforts. By no means this is meant to cover all versions and all aspects but to give you a detailed idea of handling a technology development.
 
 ```
-1. Original docs. They are the best, may or may not be written very well, but usually give you everything required.
+1. Original documentation. These are the best, may or may not be written very well, but usually give you
+   a lot of what is required.
 2. MacOS App - Dash (collective documentation of multiple languages)
 3. Personalized docs. What I have here. I find it fastest approach for me.
 
