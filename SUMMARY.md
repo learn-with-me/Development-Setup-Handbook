@@ -47,4 +47,7 @@
   * [Basic Installation](windows/basic-installation.md)
     * [Package Managers](windows/basic-installation/package-managers.md)
     * [Git](windows/basic-installation/chocolatey.md)
+  * [Programming Languages](windows/programming-languages.md)
+  * [Database](windows/database.md)
+  * [DevOps](windows/devops.md)
 
