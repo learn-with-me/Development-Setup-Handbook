@@ -12,7 +12,25 @@ Everything you need to know about setting up your MacOSX development machine.
 So, whatever works, is the best for you. You'll need to figure that out by experience.
 ```
 
+#### Bash Commands
 
+```
+cat
+less
+open . -a 'Visual Studio Code'
+touch
+echo >
+echo >>
+mkdir -p a/b/c
+rm -rf folder/
+mv
+cp -R src dest
+find images/ -name "*.png"
+find images/ -iname "*.png"
+find . -type d
+
+
+```
 
 
 
