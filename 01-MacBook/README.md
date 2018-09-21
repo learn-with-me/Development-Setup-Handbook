@@ -10,14 +10,21 @@ Having a better Mac terminal experience if important for me.
 >
 > [https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-experience-d73647abf6d7](https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-experience-d73647abf6d7)
 >
-> https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/
+> [https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/](https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/)
 
 ### Getting started with Terminal
 
 1. Choose a Shell application
+   iTerm2 or Hyper
+
 2. Install your Unix shell
+   Zsh
+
 3. Choosing a framework
+   Oh-my-zsh
+
 4. Custom prompt installation
+   spaceship-prompt
 
 ### Environment variables
 
@@ -84,6 +91,8 @@ cp -R src dest
 find images/ -name "*.png"
 find images/ -iname "*.png"
 find . -type d
+
+defaults write com.apple.finder AppleShowAllFiles YES        // Enable hidden file view
 ```
 
 
