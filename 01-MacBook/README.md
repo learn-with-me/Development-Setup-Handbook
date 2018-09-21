@@ -2,9 +2,24 @@
 
 Everything you need to know about setting up your MacOSX development machine.
 
+## First things first
+
+Having a better Mac terminal experience if important for me.
+
+> Source:
+>
+> [https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-experience-d73647abf6d7](https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-experience-d73647abf6d7)
+>
+> https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/
+
 ### Getting started with Terminal
 
-#### Environment variables
+1. Choose a Shell application
+2. Install your Unix shell
+3. Choosing a framework
+4. Custom prompt installation
+
+### Environment variables
 
 An environment variable in a named object containing data which can be used by multiple applications or processes.
 
@@ -29,10 +44,20 @@ Since Mac uses bash shell, so the environment variables can be added to the .bas
 for the current user.
 $ nano ~/.bash_profile
 $ source ~/.bash_profile
-
 ```
 
-#### Cheatsheet
+## What else?
+
+### Basic Installations
+
+* XCode Command line
+* Homebrew
+* Git
+* Java
+* IDE - Frontend \(Visual Studio Code, Atom, WebStorm\)
+* IDE - Backend \(IntelliJ, PyCharm\)
+
+### Cheatsheet
 
 ```
 1. Original docs. They are the best, may or may not be written very well, but usually give you everything required.
@@ -42,7 +67,7 @@ $ source ~/.bash_profile
 So, whatever works, is the best for you. You'll need to figure that out by experience.
 ```
 
-#### Bash Commands
+### Bash Commands
 
 ```
 printenv
