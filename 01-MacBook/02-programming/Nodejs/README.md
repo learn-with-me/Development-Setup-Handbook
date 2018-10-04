@@ -21,11 +21,13 @@ $ brew install node@7    // Install the desired version, if not already done
 $ brew link node@7       // Then link the desired version
 $ node --version         // confirm the node version if everything went correctly
 
-Option 4
+Option 4 -- Installs or updated NVM (Node Version Manager)
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.7/install.sh | bash
-    // Installs or updated NVM (Node Version Manager)
-    http://sourabhbajaj.com/mac-setup/Node.js/
-    
+$ nvm install 8              # install node 8
+$ nvm alias default 8        # to make node 8 the default
+
+Reference: http://sourabhbajaj.com/mac-setup/Node.js/
+
 Installation location: /usr/local/bin/node and /usr/local/bin/npm
 ```
 
