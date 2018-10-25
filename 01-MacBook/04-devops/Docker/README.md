@@ -45,15 +45,15 @@ $ env | grep DOCKER      // If this command does not return anything, you are al
 ##### Good to know
 
 ```
-The Docker for Mac application does not use docker-machine to provision that VM; but rather creates and manages it
-directly.
-Docker exposes the docker API on a socket in /var/run/docker.sock. Since this is the default location where docker
-will look if no environment variables are set, you can start using docker and docker-compose without setting any
-environment variables.
-With Docker for Mac, you get only one VM, and you don’t manage it. It is managed by the Docker for Mac application,
-which includes autoupdate to update the client and server versions of Docker.
-If you need several VMs and want to manage the version of the Docker client or server you are using, you can continue
-to use docker-machine, on the same machine.
+The Docker for Mac application does not use docker-machine to provision that VM; but rather creates and manages
+it directly.
+Docker exposes the docker API on a socket in /var/run/docker.sock. Since this is the default location where
+docker will look if no environment variables are set, you can start using docker and docker-compose without
+setting any environment variables.
+With Docker for Mac, you get only one VM, and you don’t manage it. It is managed by the Docker for Mac
+application, which includes autoupdate to update the client and server versions of Docker.
+If you need several VMs and want to manage the version of the Docker client or server you are using, you
+can continue to use docker-machine, on the same machine.
 ```
 
 ##### Resources

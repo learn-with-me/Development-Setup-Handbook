@@ -46,6 +46,14 @@ $ docker exec -it web bash              // Create a new bash process inside the 
 $ docker logs --tail 100 web            // Print the last 100 lines of a container's logs
 ```
 
+##### Cleanup
+
+```
+$ docker system prune                   # single command that will clean up any resources that are dangling
+                                            — images, containers, volumes, and networks
+$ docker system prune -a                # remove any stopped containers & all unused images (not just dangling images)
+```
+
 ##### Container Commands
 
     DOCKER_HIDE_LEGACY_COMMANDS=true docker --help
