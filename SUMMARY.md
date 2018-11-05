@@ -20,6 +20,7 @@
       * [Cheatsheet](01-MacBook/02-programming/Python/cheatsheet.md)
       * [Pip - Package Manager](01-MacBook/02-programming/Python/pip-package-manager.md)
       * [Virtual Environment](01-MacBook/02-programming/Python/virtual-environment.md)
+      * [Django](01-MacBook/02-programming/Python/django.md)
     * [Go](01-MacBook/02-programming/Go/README.md)
     * [R](01-MacBook/02-programming/R/README.md)
     * [C++](01-MacBook/02-programming/C++/README.md)
@@ -50,3 +51,4 @@
   * [DevOps](02-Windows/devops.md)
 * [Linux](03-Linux/README.md)
 * [Random](random.md)
+

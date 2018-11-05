@@ -29,6 +29,19 @@ $ eval "$(pyenv init -)"
 
 $ brew install pyenv-virtualenv
 $ eval "$(pyenv virtualenv-init -)"
+
+$ pyenv virtualenv venv27
+$ pyenv virtualenvs            // shows you the list of existing virtualenvs and conda environments
+
+$ pyenv shell venv27
+```
+
+#### Anaconda
+
+```
+$ conda create -n py36 python=3.6 anaconda
+$ conda activate py36
+
 ```
 
 
