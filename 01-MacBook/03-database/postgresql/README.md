@@ -64,6 +64,8 @@ $ pg_ctl --help                     # Display command options
 Postico - https://eggerapps.at/postico/
 Modern PostgreSQL client for Mac
 
+Psequel - http://www.psequel.com/
+
 pgAdmin - https://www.pgadmin.org/
 Most popular and feature rich Open Source administration and development platform for PostgreSQL. Designed to run on
 both client machines and on deployed servers, pgAdmin is capable of handling advanced cases that Postico cannot.
