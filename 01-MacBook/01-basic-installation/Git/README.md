@@ -35,4 +35,11 @@ git config --global user.name "Anshul Goel"
 git config --global user.email "dec.anshul@gmail.com"
 ```
 
-#####
+##### Common Commands
+
+```
+git clean -fxd                # remove all untracked files
+```
+
+
+
