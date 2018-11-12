@@ -1,5 +1,15 @@
 # Terminal Cheatsheet
 
+##### Plugins
+
+```
+$ bash --version                      # Bash version
+
+Auto Completion
+$ brew install bash-completion        ## If running Bash 3.2 included with macOS
+$ brew install bash-completion@2      ## or, if running Bash 4.1+
+```
+
 ##### Commands
 
     which command        // Returns the location of the binary installed
