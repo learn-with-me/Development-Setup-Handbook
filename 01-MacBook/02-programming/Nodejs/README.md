@@ -52,7 +52,7 @@ https://nodejs.org/en/get-involved/
 ##### Commands
 
 ```
-
+$ npm list -g --depth=0        # List all global dependencies
 ```
 
 > Remember: You can manager multiple versions of Node via NVM \(Node Version Manager\)
