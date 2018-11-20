@@ -14,6 +14,7 @@
       * [NPM - Node Package Manager](01-MacBook/02-programming/Nodejs/npm.md)
       * [Yarn - Package Manager](01-MacBook/02-programming/Nodejs/yarn-package-manager.md)
       * [NVM - Node Version Manager](01-MacBook/02-programming/Nodejs/nvm-node-version-manager.md)
+      * [Packages](01-MacBook/02-programming/Nodejs/packages.md)
     * [Java](01-MacBook/02-programming/Java/README.md)
       * [Maven](01-MacBook/02-programming/Java/maven.md)
     * [Python](01-MacBook/02-programming/Python/README.md)

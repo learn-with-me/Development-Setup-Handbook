@@ -53,6 +53,7 @@ https://nodejs.org/en/get-involved/
 
 ```
 $ npm list -g --depth=0        # List all global dependencies
+$ npm config list              # Display Node and NPM configs
 ```
 
 > Remember: You can manager multiple versions of Node via NVM \(Node Version Manager\)
