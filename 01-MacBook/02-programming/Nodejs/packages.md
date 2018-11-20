@@ -13,7 +13,7 @@ Here is a list of commonly used packages that may be helpful
 | request | Simplest way to make HTTP\(s\) calls |
 | request-promise | Add-on to request with Promise support |
 | uuid | Simple, fast generation of RFC4122 UUIDs |
-|  |  |
+| config | Manage application configurations across environments |
 
 ### Database
 
@@ -39,6 +39,13 @@ Here is a list of commonly used packages that may be helpful
 | nodemon | A replacement wrapper for node. Automatically restarts the application on file change detection |
 | dotenv | Loads environment variables from .env file into process.env |
 | nonce | Returns unique and ever increasing timestamps |
+
+### Advanced
+
+| Package Name | Usage |
+| :--- | :--- |
+| cluster | Multi-core server manager for Node.js |
+| pm2 | Process manager for node.js with built-in load balancer |
 
 
 
