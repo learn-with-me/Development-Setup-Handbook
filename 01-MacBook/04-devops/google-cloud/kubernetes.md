@@ -16,7 +16,10 @@ $ kubectl version
 #### Cheatsheet
 
 ```
+To find out which cluster information in the current context
 $ kubectl cluster-info    # URL response means kubectl is correctly configured to access your cluster.
+OR
+$ kubectl config current-context
 ```
 
 #### Minikube
@@ -25,6 +28,12 @@ $ kubectl cluster-info    # URL response means kubectl is correctly configured t
 $ brew cask install minikube
 $ minikube version
 $ minikube start
+```
+
+#### Helm
+
+```
+$ brew install kubernetes-helm
 ```
 
 #### References
