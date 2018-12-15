@@ -52,5 +52,7 @@
   * [Database](02-Windows/database.md)
   * [DevOps](02-Windows/devops.md)
 * [Linux](03-Linux/README.md)
+  * DevOps
+    * [Kubernetes](03-Linux/kubernetes.md)
 * [Random](random.md)
 
