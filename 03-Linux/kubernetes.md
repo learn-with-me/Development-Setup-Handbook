@@ -28,7 +28,6 @@ $ cd ~/code/gsw-k8s-3
 
 $ curl -sS https://get.k8s.io | bash            # Installing the latest Kubernetes version
 $ kubernetes/cluster/kube-up.sh                 # call the script to launch the cluster
-
 ```
 
 #### Setup GCloud
@@ -62,6 +61,7 @@ $ curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.18.0/ \
 $ chmod +x minikube
 
 $ sudo mv minikube /usr/local/bin/
+$ minikube start --cpus=4 --memory=4000 --kubernetes-version=v1.7.2
 ```
 
 
