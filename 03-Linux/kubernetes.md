@@ -64,5 +64,16 @@ $ sudo mv minikube /usr/local/bin/
 $ minikube start --cpus=4 --memory=4000 --kubernetes-version=v1.7.2
 ```
 
+#### kubectl - Doing something more
+
+```
+The kubectl run command is called a generator; it is a convenience command to create a Deployment object.
+$ kubectl run ghost --image=ghost:0.9
+
+The kubectl expose command is also a generator, a convenience command to create a Service object that
+routes network traffic to the containers started by your deployment.
+$ kubectl expose deployments ghost --port=2368 --type=NodePort
+```
+
 
 
