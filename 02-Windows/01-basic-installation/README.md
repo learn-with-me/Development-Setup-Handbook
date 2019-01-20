@@ -4,9 +4,6 @@ To get started, you'll need some basic software installed:
 
 #### Starters
 
-* Windows package manager like 
-  * scoop
-  * Chocolatey
 * Git
 
 #### FrontEnd
@@ -40,8 +37,6 @@ To get started, you'll need some basic software installed:
 * VirtualBox
 * Vagrant
 * Google Cloud
-
-
 
 
 
