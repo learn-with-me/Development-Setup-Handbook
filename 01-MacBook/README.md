@@ -14,16 +14,16 @@ Having a better Mac terminal experience if important for me.
 
 ### Getting started with Terminal
 
-1. Choose a Shell application
+1. Choose a Shell application  
    iTerm2 or Hyper
 
-2. Install your Unix shell
+2. Install your Unix shell  
    Zsh
 
-3. Choosing a framework
+3. Choosing a framework  
    Oh-my-zsh
 
-4. Custom prompt installation
+4. Custom prompt installation  
    spaceship-prompt
 
 ### Environment variables
