@@ -19,6 +19,9 @@ $ brew install python3        // Installs Python 3.x
 
 ```
 $ python -m site --user-base            // Find the user base binary directory
+
+$ python
+> import struct;print(struct.calcsize("P") * 8)    # Find if installed version is 32 bit or 64 bit
 ```
 
 #### Virtual Environment
