@@ -10,6 +10,11 @@ $ gcloud auth login
 $ gcloud info --show-log
 $ gcloud config set project <project-id>
 $ gcloud init <project>
+
+Verification
+$ gcloud auth list
+$ gcloud config list                        # List all the config except the default ones
+$ gcloud config list --all                  # Lists all the configs including defaults
 ```
 
 ###### Application
@@ -26,7 +31,9 @@ $ gcloud app describe                  # Displays GCloud app information
 ###### Help
 
 ```
-$ gcloud help compute instances create
+$ gcloud -h                            # Lists all the available commands and command groups
+$ gcloud --help                        # Detailed information on commands
+$ gcloud help compute instances create # Help on specific command combination
 ```
 
 #### Deployment
@@ -46,7 +53,6 @@ $ gcloud deployment-manager deployments describe platform-qa-deployment
 $ gsutil mb gs://[YOUR-BUCKET-NAME]                        # Create a bucket
 $ gsutil defacl set public-read gs://[YOUR-BUCKET-NAME]    # Set the bucket's default ACL to public-read,
                                                              which enables users to see their uploaded images.
-
 ```
 
 
