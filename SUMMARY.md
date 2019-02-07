@@ -9,6 +9,7 @@
     * [Homebrew](01-MacBook/01-basic-installation/Homebrew/README.md)
     * [Git](01-MacBook/01-basic-installation/Git/README.md)
       * [Cheatsheet](01-MacBook/01-basic-installation/Git/cheatsheet.md)
+    * [Terminal](01-MacBook/01-basic-installation/terminal.md)
   * [Programming Languages](01-MacBook/02-programming/README.md)
     * [Node.js](01-MacBook/02-programming/Nodejs/README.md)
       * [NPM - Node Package Manager](01-MacBook/02-programming/Nodejs/npm.md)
