@@ -44,6 +44,7 @@
     * [Google Cloud](01-MacBook/04-devops/google-cloud/README.md)
       * [Cheatsheet](01-MacBook/04-devops/google-cloud/cheatsheet.md)
       * [Kubernetes](01-MacBook/04-devops/google-cloud/kubernetes.md)
+    * [Snowplow](01-MacBook/04-devops/Docker/snowplow.md)
   * [Nginx](01-MacBook/Nginx/README.md)
 * [Windows](02-Windows/README.md)
   * [Basic Installation](02-Windows/01-basic-installation/README.md)
