@@ -3,6 +3,8 @@
 #### Setup Instructions
 
 ```
+https://www.simoahava.com/analytics/install-snowplow-on-the-google-cloud-platform/
+
 https://github.com/snowplow/snowplow/wiki/GCP:-Getting-Started
 https://github.com/snowplow/snowplow/wiki/GCP:-Setting-up-the-Scala-Stream-Collector
 
@@ -25,7 +27,6 @@ https://github.com/snowplow/snowplow/wiki/Hosted-assets
 ```
 Scala Stream Collector
 https://github.com/snowplow/snowplow/wiki/Install-the-Scala-Stream-Collector
-
 ```
 
 
