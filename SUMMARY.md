@@ -56,5 +56,7 @@
 * [Linux](03-Linux/README.md)
   * DevOps
     * [Kubernetes](03-Linux/kubernetes.md)
+* [IDE](ide.md)
+  * [Visual Studio Code](ide/visual-studio-code.md)
 * [Random](random.md)
 
