@@ -46,6 +46,8 @@ Dockerfile, Markdown
 * **Live Server -** creates a development local server for your static and dynamic pages. Live Reload reloads the page as soon as you save your work.
 * **Live Sass Compiler -** compiles your scss files into css files just as swiftly and as real-time as node-sass
 * **Auto Import -** Automatically finds, parses and provides code actions and code completion for all available imports. Works with Typescript and TSX
+* **npm Intellisense -** plugin that autocompletes npm modules in import statements
+* **NPM -** helps in to manage the package.json file in every imaginable way. It also indicates discrepancies in version control of packages. It also provides for quick run of npm commands with easy shortcuts.
 * **Path Autocomplete -** Provides path completion for visual studio code
 * **Highlight Matching Tag -** Highlights matching closing or opening tag
 * **CSS Peek -** Allow peeking to css ID and class strings as definitions from html files to respective CSS. Allows peek and goto definition.
@@ -53,7 +55,6 @@ Dockerfile, Markdown
 * **Javascript Code Snippets -** provides javascript code snippets in ES6 syntax while using javascript, Typescript, Javascript React, Typescript React files
 * **JavaScript \(ES6\) code snippets -** Code snippets for JavaScript in ES6 syntax
 * **React Native Tools -** Code-hinting, debugging and integrated commands for React Native
-* **NPM -** helps in to manage the package.json file in every imaginable way. It also indicates discrepancies in version control of packages. It also provides for quick run of npm commands with easy shortcuts.
 * **REST Client -** allows you to send HTTP request and view the response
 * **Go -** Rich Go language support for Visual Studio Code
 * **Java Extension Pack -** collection of popular extensions that can help write, test and debug Java applications
