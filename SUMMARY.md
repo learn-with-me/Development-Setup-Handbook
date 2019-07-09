@@ -59,4 +59,5 @@
 * [IDE](ide.md)
   * [Visual Studio Code](ide/visual-studio-code.md)
 * [Random](random.md)
+* [SSH](ssh.md)
 
