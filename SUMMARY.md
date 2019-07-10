@@ -60,4 +60,6 @@
   * [Visual Studio Code](ide/visual-studio-code.md)
 * [Random](random.md)
 * [SSH](ssh.md)
+* [Bash Automation & Commands - 1](bash-automation-and-commands.md)
+* [Bash Automation & Commands - 2](bash-automation-and-commands-2.md)
 
