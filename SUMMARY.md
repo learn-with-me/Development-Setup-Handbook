@@ -62,4 +62,5 @@
 * [SSH](ssh.md)
 * [Bash Automation & Commands - 1](bash-automation-and-commands.md)
 * [Bash Automation & Commands - 2](bash-automation-and-commands-2.md)
+* [Bash Profile](bash-automation-and-commands-3.md)
 

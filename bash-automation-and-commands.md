@@ -9,7 +9,7 @@ $ ls -l
 
 -l    # long listing of files
 -la   # long listing with hidden files
--G    # list all the folders
+-G    # Colorize output
 ```
 
 ###### View contents of a file
@@ -106,6 +106,7 @@ $ curl -iL https://google.com -o response.json      # Write large json responses
 $ curl -iL https://google.com | jsome               # Format the response. jsome is a global node module
 
 -i        # include response headers
+-I        # return only response headers
 -iL       # Follow redirects if the server is trying to redirect the request
 -H        # Send headers in request
 -X        # Change the HTTP method of the request
@@ -113,6 +114,24 @@ $ curl -iL https://google.com | jsome               # Format the response. jsome
 -o        # Output the response to a file
 -s        # Execution to be silent and without progress bar if any (like in case of storing to a file)
 --data-urlencode    # Post in a url-encoded form
+
+Additional Operations
+$ curl -I https://google.com | head -n 1       # returns only first line of response headers
+$ curl -I https://google.com | head -n 1 | cut -d ' ' -f 2       # returns 2nd part of first line
+```
+
+###### Pipes
+
+```
+Pipes pass output of one command to the next command
+
+$ uglify -c -m -- index.js | gzip -9 | wc -c
+
+uglify    # npm module installed globally
+-c        # compress file
+-m        # minify file
+-9        # Compress to maximum
+-c        # Return byte count instead of word count
 ```
 
 
