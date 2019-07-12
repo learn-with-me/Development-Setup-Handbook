@@ -48,6 +48,24 @@ Ternary Operation
 [[ $USER = 'anshul' ]] && echo "true" || echo "false"
 ```
 
+#### Shell Parameter Expansion Usage
+
+From the previous notes, one of the areas where we could use braces expansions are scripts
+
+###### Example: count-files.sh
+
+```
+dir=$1
+find "$dir" -type -f -maxdepth 1 | wc -l
+```
+
+The script above will fail in the case where the caller does not pass in the directory path as input parameter. We will update the script above to default to current directory if nothing is passed in.
+
+```
+dir=${1:-$PWD}
+find "$dir" -type -f -maxdepth 1 | wc -l
+```
+
 #### Handling Variables
 
 ###### Setting and Unsetting an environment variable
@@ -93,6 +111,18 @@ $ ls
 $ echo $?
 $ ls donotexist
 $ echo $?
+```
+
+#### Keyboard Shortcuts
+
+```
+When typing in bash shell, say you're typing in a really long line, press -
+
+Ctrl + a    - To go to start of the line
+Ctrl + e    - To go to end of the line
+Ctrl + k    - To clear anything after the cursor
+Ctrl + w    - To delete the last word
+Ctrl + l    - clears the screen
 ```
 
 

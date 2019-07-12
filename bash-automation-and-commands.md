@@ -57,6 +57,27 @@ $ cp                    # copy file. Use -R flag for recursive copy of multiple 
 $ mv                    # move file(s)
 ```
 
+###### Braces Expansion
+
+```
+This is a cool technique to perform multiple operations via a simple modification
+
+$ cp config.json{,.backup}        # copy existing file as config.json.backup
+$ mkdir -p project/{a,b,c}/src    # Create multiple directory structures.
+    $ tree                            # Validate the directory structures created above
+$ echo pre-{a,b,c}-post           # Returns pre-a-post, pre-b-post, pre-c-post
+$ echo {1..10}                    # Returns integer sequence 1 to 10
+$ echo {a..j}                     # Returns char sequence from a to j
+
+Part of the expansion are few unique commands
+$ !!                 # Runs the last command executed. Useful when you forgot to add sudo
+$ sudo !!
+
+$ !$                 # Refers to the last argument of the previous command
+$ touch script.sh
+$ chmod +x !$        # This will already know to replace script.sh here
+```
+
 ###### Find a files and folders
 
 ```
