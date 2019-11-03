@@ -10,6 +10,38 @@ C++, Java, Go, F#, SQL
 Dockerfile, Markdown
 ```
 
+#### Plugins Index - Personal
+
+Remember using **Emmet** built-in capabilities in the IDE
+
+###### Personal Choice - Code Management
+
+* **Settings Sync -** Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
+
+###### Personal Choice - Visual Extensions
+
+* **Material Theme -** Most popular IDE UI theme so far
+* **Material Icon Theme -** Easy to identify files within the project
+* **Prettier - Code Formatter -** helps format your JavaScript/TypeScript/JSON/YAML/CSS/HTML/Markdown and Angular/Vue/GraphQL, colors keywords to make your code easily readable. beautify is another similar extensions. Remember to set "Format on save" setting after pressing "Cmd + comma".
+* **Bracket Pair Colorizer 2 -** Makes it easier to identify opening and closing brackets
+* **TODO Highlight -** highlight TODOs, FIXMEs, and any keywords, annotations
+* 
+###### Personal Choice - Functional Extensions - UI
+
+* **Auto Rename Tag -** useful for HTML to rename start and ending tag on change without having to remember
+* **Rest Client -** like postman, calls API from the IDE
+* **CSS Peek -** Allows you to peek CSS definition from HTML file
+* **HTML CSS Support -** Missing CSS support for HTML documents
+* **SVG Viewer -** Lets you see an actual image for svg format file
+* **Live Server -** creates a development local server for your static and dynamic pages. Live Reload reloads the page as soon as you save your work.
+* **Live Sass Compiler -** compiles your scss files into css files just as swiftly and as real-time as node-sass
+* **Paste JSON as Code -** Copy JSON, paste as Go, TypeScript, C\#, C++ and more.
+
+###### Personal Choice - Functional Extensions - Frontend
+
+* **ES7 React/Redux/GraphQL/React-Native snippets -** provides you Javascript and React/Redux snippets in ES7 with Babel plugin features.
+* **Import Cost -** Display import/require package size \(Javascript/node\) in the editor
+
 #### Plugins Index
 
 ###### Must-Have
@@ -20,16 +52,12 @@ Dockerfile, Markdown
   * **VS Live Share Extension Pack -** includes integrated audio and text chat
 * **Code Runner -** Run code snippet or code file for multiple languages \(pretty much everything\)
 * **YAML -** YAML Language Support by Red Hat, with built-in Kubernetes and Kedge syntax support
-* **Paste JSON as Code -** Copy JSON, paste as Go, TypeScript, C\#, C++ and more.
-* **Import Cost -** Display import/require package size in the editor
 * **Markdown Preview Enhanced -** Markdown Preview Enhanced ported to vscode
 
 ###### Need-to-Have
 
 * **Project Manager -** Easily switch between projects
 * **Git Project Manager -** Allows you to change easily between git projects.
-* **Prettier -** helps format your JavaScript/TypeScript/CSS, colors keywords to make your code easily readable. beautify is another similar extensions
-* **TODO Highlight -** highlight TODOs, FIXMEs, and any keywords, annotations
 * **Todo Tree -** displays them in a tree view in the explorer pane. Clicking a TODO within the tree will open the file and put the cursor on the line containing the TODO.
 * **markdownlint -** Linter for Markdown. Some constructs don't work well in all parsers and should be avoided.
 * **Git History -** View git log, file history, compare branches or commits
@@ -43,8 +71,6 @@ Dockerfile, Markdown
 
 ###### Good-to-Have
 
-* **Live Server -** creates a development local server for your static and dynamic pages. Live Reload reloads the page as soon as you save your work.
-* **Live Sass Compiler -** compiles your scss files into css files just as swiftly and as real-time as node-sass
 * **Auto Import -** Automatically finds, parses and provides code actions and code completion for all available imports. Works with Typescript and TSX
 * **npm Intellisense -** plugin that autocompletes npm modules in import statements
 * **NPM -** helps in to manage the package.json file in every imaginable way. It also indicates discrepancies in version control of packages. It also provides for quick run of npm commands with easy shortcuts.
@@ -64,6 +90,7 @@ Dockerfile, Markdown
 * **Java Dependency Viewer -** Manage Java Dependencies in VSCode
 * **XML Tools -** XML Formatting, XQuery, and XPath Tools
 * **Anaconda Extension Pack -** Includes Python and YAML support
+* **Indent Rainbow -** colorizes indentation in code to make readability easier
 
 ###### Yet to explore
 
