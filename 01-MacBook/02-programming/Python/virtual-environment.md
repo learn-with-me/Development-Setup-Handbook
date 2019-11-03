@@ -34,7 +34,13 @@ virtualenv. Now when you install anything, it will be installed in the venv fold
 $ deactivate                                // To leave the virtual environment
 
 Note: Remember to add venv to your project's .gitignore file so you don't include all of that in your source code!
-Preferably install big packages (like Numpy), or ones you always use (like IPython) globally. Rest can be in virtualenv.
+Preferably install big packages (like Numpy), or ones you always use (like IPython) globally.
+Rest can be in virtualenv.
+
+Create Python3 Virtual Environment
+----------------------------------
+$ virtualEnv -p python3 venv
+Remember, virtual environment can only be created based off an existing python version installed locally.
 ```
 
 ##### Virtualenvwrapper

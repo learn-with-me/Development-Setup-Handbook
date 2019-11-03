@@ -15,6 +15,7 @@
       * [NPM - Node Package Manager](01-MacBook/02-programming/Nodejs/npm.md)
       * [Yarn - Package Manager](01-MacBook/02-programming/Nodejs/yarn-package-manager.md)
       * [NVM - Node Version Manager](01-MacBook/02-programming/Nodejs/nvm-node-version-manager.md)
+      * [Node.js Installations](nodejs.md)
       * [Packages](01-MacBook/02-programming/Nodejs/packages.md)
     * [Java](01-MacBook/02-programming/Java/README.md)
       * [Maven](01-MacBook/02-programming/Java/maven.md)
@@ -64,4 +65,5 @@
 * [Bash Automation & Commands - 2](bash-automation-and-commands-2.md)
 * [Bash Automation & Commands - Advanced](bash-automation-and-commands-advanced.md)
 * [Bash Profile](bash-automation-and-commands-3.md)
+* [Terminal](terminal.md)
 
