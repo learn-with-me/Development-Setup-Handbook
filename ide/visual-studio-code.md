@@ -17,6 +17,7 @@ Remember using **Emmet** built-in capabilities in the IDE
 ###### Personal Choice - Code Management
 
 * **Settings Sync -** Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
+* **Project Manager -** Easily switch between projects
 
 ###### Personal Choice - Visual Extensions
 
@@ -25,10 +26,9 @@ Remember using **Emmet** built-in capabilities in the IDE
 * **Prettier - Code Formatter -** helps format your JavaScript/TypeScript/JSON/YAML/CSS/HTML/Markdown and Angular/Vue/GraphQL, colors keywords to make your code easily readable. beautify is another similar extensions. Remember to set "Format on save" setting after pressing "Cmd + comma".
 * **Bracket Pair Colorizer 2 -** Makes it easier to identify opening and closing brackets
 * **TODO Highlight -** highlight TODOs, FIXMEs, and any keywords, annotations
-* 
-###### Personal Choice - Functional Extensions - UI
-
+* ###### Personal Choice - Functional Extensions - UI
 * **Auto Rename Tag -** useful for HTML to rename start and ending tag on change without having to remember
+
 * **Rest Client -** like postman, calls API from the IDE
 * **CSS Peek -** Allows you to peek CSS definition from HTML file
 * **HTML CSS Support -** Missing CSS support for HTML documents
@@ -39,8 +39,19 @@ Remember using **Emmet** built-in capabilities in the IDE
 
 ###### Personal Choice - Functional Extensions - Frontend
 
+* **Debugger for Chrome -** Debug Javascript code in chrome browser
 * **ES7 React/Redux/GraphQL/React-Native snippets -** provides you Javascript and React/Redux snippets in ES7 with Babel plugin features.
 * **Import Cost -** Display import/require package size \(Javascript/node\) in the editor
+
+###### Personal Choice - Backend
+
+* **Maven for Java -** Manage Maven projects, execute goals, generate project from archetype
+* **Java Dependency Viewer -** Manage Java Dependencies in VSCode
+* **Java Extension Pack -** collection of popular extensions that can help write, test and debug Java applications
+
+###### Personal Choice - IoT
+
+* **PlatformIO IDE -** IDE for embedded development
 
 #### Plugins Index
 
@@ -56,7 +67,6 @@ Remember using **Emmet** built-in capabilities in the IDE
 
 ###### Need-to-Have
 
-* **Project Manager -** Easily switch between projects
 * **Git Project Manager -** Allows you to change easily between git projects.
 * **Todo Tree -** displays them in a tree view in the explorer pane. Clicking a TODO within the tree will open the file and put the cursor on the line containing the TODO.
 * **markdownlint -** Linter for Markdown. Some constructs don't work well in all parsers and should be avoided.
@@ -83,11 +93,8 @@ Remember using **Emmet** built-in capabilities in the IDE
 * **React Native Tools -** Code-hinting, debugging and integrated commands for React Native
 * **REST Client -** allows you to send HTTP request and view the response
 * **Go -** Rich Go language support for Visual Studio Code
-* **Java Extension Pack -** collection of popular extensions that can help write, test and debug Java applications
-* **Maven for Java -** Manage Maven projects, execute goals, generate project from archetype
 * **Java Test Runner -** Run and debug JUnit or TestNG test cases
 * **Debugger for Java -** A lightweight Java debugger
-* **Java Dependency Viewer -** Manage Java Dependencies in VSCode
 * **XML Tools -** XML Formatting, XQuery, and XPath Tools
 * **Anaconda Extension Pack -** Includes Python and YAML support
 * **Indent Rainbow -** colorizes indentation in code to make readability easier
@@ -108,6 +115,13 @@ Remember using **Emmet** built-in capabilities in the IDE
 #### Downsides
 
 * No support noticed for GCP yet.
+
+#### Additional Notes
+
+```
+https://code.visualstudio.com/docs/nodejs/nodejs-tutorial
+
+```
 
 
 
