@@ -14,6 +14,7 @@ Here is a list of commonly used packages that may be helpful
 | request-promise | Add-on to request with Promise support |
 | uuid | Simple, fast generation of RFC4122 UUIDs |
 | config | Manage application configurations across environments |
+| yup | Request validation |
 
 ### Database
 
