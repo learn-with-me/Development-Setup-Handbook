@@ -54,7 +54,32 @@ Java REPL
 $ brew install javarepl            # Java REPL. Requires Java 8
 ```
 
-## 
+#### Switch between versions of Java
+
+```
+Install SDKMan
+$ curl -s "https://get.sdkman.io" | bash
+$ source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+Verify Installed version
+$ sdk version
+
+Install latest stable version of Java
+$ sdk install java
+
+Note: It can be used for other JDKs and SDKs, like example below
+$ sdk install scala
+Check https://sdkman.io/
+
+List all the versions available for Java
+$ sdk list java
+
+Switch to another version of Java
+$ sdk use java 11.0.1-open
+
+Help!!
+$ sdk man
+```
 
 
 
