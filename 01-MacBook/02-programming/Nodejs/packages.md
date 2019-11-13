@@ -37,6 +37,13 @@ Here is a list of commonly used packages that may be helpful
 
 | Package Name | Usage |
 | :--- | :--- |
+| got | Node.js - powerful HTTP request library |
+| ky | Browser - tiny and elegant HTTP request library |
+
+### Local Development
+
+| Package Name | Usage |
+| :--- | :--- |
 | nodemon | A replacement wrapper for node. Automatically restarts the application on file change detection |
 | dotenv | Loads environment variables from .env file into process.env |
 | nonce | Returns unique and ever increasing timestamps |
