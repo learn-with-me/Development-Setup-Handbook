@@ -88,6 +88,14 @@ $ brew tap <tapname>           // add tap
 $ brew untap <tapname>         // remove a tap
 ```
 
+#### Permissions issue
+
+Sometimes when you switch users on the same machine, you may run into permissions issue. If you're an admin, run the following command to set permissions to the current logged in user
+
+```
+sudo chown -R $(whoami) $(brew --prefix)/*
+```
+
 #### More info
 
 ```
