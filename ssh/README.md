@@ -1,18 +1,10 @@
 # SSH for Remote Server Authentication
 
-#### Generate new SSH public/private key pair
-
-```
-Most common way
-$ ssh-keygen
-
-Key pair will be generated in the following location
-~/.ssh
-
-File names
-Private key - id_rsa
-Public key  - id_rsa.pub
-```
+1. [Generate a new key](./ssh_keygen.md)
+2. [Config file](./ssh_config_file.md)
+3. [SSH into a machine](./ssh_into_a_machine.md)
+4. [Verify Fingerprints](./ssh_verify_fingerprints.md)
+5. [Audit SSH logs](./ssh_audit_logs.md)
 
 > Note:
 >
@@ -35,54 +27,6 @@ root@instance:~# vi ~/.ssh/authorized_keys
 This file contains a list of public ssh keys, which have been granted access for authentication.
 The key you copied from your local machine should be in here.
 To allow another user to authenticate into the server, just add their public SSH key into this file.
-```
-
-#### Advanced SSH into a machine
-
-If you try to SSH into a machine by using SSH command without user-name, the command assumes the name same as the host machine name, which in a lot of cases is not desired.
-
-Sometimes for security reasons, some server block connections to the default port 22 and bind the ssh server to a different port.
-
-```
-SSH into a server using a different port 2022
-$ ssh -p 2022 root@104.105.103.102
-
-SSH into a server using a different identity and not the default id_rsa file
-$ ssh -i ~/.ssh/another_key root@104.105.103.102
-
-SSH, Run a command and Exit
-$ ssh root@104.105.103.102 <command>
-$ ssh root@104.105.103.102 hostname
-```
-
-#### SSH config files
-
-Simplifies SSH connection by storing the intricate details surrounding the SSH connection. _Fields are optional not required_.
-
-```
-Create a config file
-$ vi ~/.ssh/config
-```
-
-Content of config file
-
-```
-Host 104.105.103.102
-
-OR
-
-Host prod-instance
-    HostName 104.105.103.102
-    User root
-    IdentityFile ~/.ssh/id_rsa
-    Port 22
-```
-
-SSH into the server configured in config file
-
-```
-$ ssh prod-instance
-So much easier!!
 ```
 
 #### Securely copy files remotely over SSH
@@ -155,29 +99,6 @@ local  - port that the requests should be forwarded to
 
 Little known feature. These hidden sequences allow you to unstick a frozen terminal window, keep a remote SSH session open in the background, and more
 
-#### Check and Verify SSH fingerprints
-
-Once you SSH into a remote server, server fingerprint and key are added to ~/.ssh/known\_hosts file. This file contains a list of remote servers you've connected to in the past. File ensures that you are connected to the correct server and not a fake impersonator.
-
-If you try connecting to a remote host with an IP previously assigned to another machine, you'll get a host mismatch error. This is because the remote host fingerprint does not match to your known\_hosts file.
-
-```
-Find the remote host fingerprint on server
-$ ssh root@104.105.103.102
-root@instance:~# ssh-keygen -l -f /etc/ssh/ssh_host_ecdsa_key.pub
-
--l - tells the keygen that we want the fingerprint
--f - tell the keygen where to find the public key
-
-Remove all the keys related to a remote host machine
-$ ssh-keygen -R 104.105.103.102
-
-Find the remote host fingerprint on local machine
-$ ssh root@104.105.103.102
-
-With first time connections, the server shows its fingerprint. Match this to the one you found on the server
-```
-
 #### Modify server configuration to lock down incoming SSH connections
 
 ```
@@ -198,21 +119,6 @@ This allows specific users, user from a specific IP address or all users coming 
 
 Now restart the SSH service
 root@instance:~# service ssh restart
-```
-
-#### Monitoring and Auditing SSH connection attempts
-
-```
-root@instance:~# vi /var/log/auth.log
-
-Display most recent login attempts from all users
-root@instance:~# lastlog
-
-Display most recent login attempts from a specific users
-root@instance:~# lastlog -u <username>
-
-Lookup bash history file to see if there was an unauthorized access and what all was done
-root@instance:~# vi ~/.bash_history
 ```
 
 ### Questions

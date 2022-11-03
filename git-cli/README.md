@@ -18,7 +18,7 @@ Option 1: (preferred)
 If you have brew (Homebrew) installed already
 $ brew install git
 
-Option 2: (easiest)
+Option 2:
 If not, download and run the installation from http://git-scm.com/download/mac
 
 Linux
