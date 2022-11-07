@@ -99,6 +99,3 @@ $ docker-machine create -d virtualbox myhost          // Same command as above
 ```
 https://github.com/wsargent/docker-cheat-sheet
 ```
-
-
-

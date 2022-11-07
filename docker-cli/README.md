@@ -2,9 +2,14 @@
 
 1. [Installation](./installation.md)
 2. [Docker Networking](./docker-networking.md)
-3. [Cheatsheet - Docker Images](./tips/handling-docker-images.md)
-4. [Cheatsheet - Docker Containers](./tips/handling-docker-containers.md)
-5. [Cheatsheet](./cheatsheet.md)
+3. Cheatsheet - [Docker Images](./tips/handling-docker-images.md)
+4. Cheatsheet - [Docker Containers](./tips/handling-docker-containers.md)
+5. Cheatsheet - [Persistent Storage](./tips/handling-persistent-storage.md)
+6. Cheatsheet - [Clean up](./tips/handling-cleanup.md)
+7. [Cheatsheet](./cheatsheet.md)
+8. Example [Nginx with Volume](./examples/nginx-with-volume.md)
+9. Example [Nodejs Web Server w/ Proxy](./examples/nodejs-web-server-with-proxy.md)
+10. Example [Build Custom Docker Image](./examples/building-custom-docker-image.md)
 
 ## Good to know
 

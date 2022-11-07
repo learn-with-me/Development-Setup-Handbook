@@ -1,5 +1,7 @@
 # Handling Docker Containers
 
+## Docker run
+
 Run a docker container (creates a container)
 ```
 $ docker run <image_name>
@@ -26,6 +28,16 @@ $ docker run -d -p 8080:8080 <image_name>
 
 Note: docker assigns random names to each container. Use the above command to give custom names to containers
 ```
+
+Automatically remove container on exit
+```
+$ docker run --rm <image_name>
+$ docker run -p 8080:80 --name web --rm nginx
+
+Note: docker assigns random names to each container. Use the above command to give custom names to containers
+```
+
+## Other Container commands
 
 Start a existing docker container
 ```
