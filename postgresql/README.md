@@ -2,61 +2,11 @@
 
 > **Source:** [https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx](https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx)
 
-##### Installation
 
-    Option 1:
-    =========
-    Download and install from http://postgresapp.com/
-    A native macOS app that runs in the menubar without the need of an installer.
-    (Another graphical installer alternative: https://www.bigsql.org/postgresql/installers.jsp)
-
-    # Configure PATH
-    sudo mkdir -p /etc/paths.d &&
-        echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
-    OR
-    PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
-
-    If you are going to use the app, it is recommended to uninstall other PostgreSQL installations due to port conflicts.
-
-    Option 2:
-    =========
-    $ brew install postgres
-    The database will be initialized during installation, so there isn’t a need to run initdb
-
-    Here is a quick way of knowing if Postgres was installed via brew, brew initializes the database during installation
-    by `postgres -D /usr/local/var/postgres` this creating this directory `/usr/local/var/postgres`
-
-##### Uninstallation
-
-```
-Option 1:
-Removing app from Applications folder will be good enough. Just clean the PATH as well.
-
-Option 2:
-$ brew remove postgresql
-```
-
-##### Verification
-
-```
-$ which postgres        # Verify if the app is installed already
-$ postgres --version    # Display installed Postgres version
-
-$ which psql            # Verify if the app is installed already
-$ psql -h localhost     # Open psql command line, if installed correctly
-```
-
-##### Manage DB Service
-
-```
-If installed via Homebrew
-$ brew services start postgresql    # Starts as a background service
-$ brew services stop postgresql     # Stop the service manually
-$ brew services restart postgresql  # Restart the service
-
-pg_ctl is a utility to initialize, start, stop, or control a PostgreSQL server.
-$ pg_ctl --help                     # Display command options
-```
+1. [Installation](./local-installation.md) (local)
+2. Cheatsheet - [DB/Table Metrics](./tips/db-metrics.md)
+3. Cheatsheet - [DB Troubleshooting](./tips/troubleshooting.md)
+4. [Admin Commands](./admin-stuff.md)
 
 ##### Popular GUI
 
@@ -81,11 +31,7 @@ https://www.pgadmin.org/docs/pgadmin4/dev/index.html
 
     if not installed via homebrew, it should looks like `com.postgresapp.Postgres2LoginHelper.plist`
 
-##### Tutorial
+## References
 
-```
-http://www.postgresqltutorial.com/
-```
-
-
-
+1. http://www.postgresqltutorial.com/
+2. Cheatsheet - https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546

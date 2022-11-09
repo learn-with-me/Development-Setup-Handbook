@@ -5,7 +5,18 @@
 > [https://www.postgresql.org/docs/9.5/static/sql-alterrole.html](https://www.postgresql.org/docs/9.5/static/sql-alterrole.html)  
 > [https://www.postgresql.org/docs/9.5/static/reference-client.html](https://www.postgresql.org/docs/9.5/static/reference-client.html)
 
-##### Command line utilities
+`psql` is a utility installed with Postgres that lets you carry out administrative functions without needing to know
+their actual SQL commands. By default, Postgres automatically creates the user postgres. It also creates user for the
+account you are logged in.
+
+### Login to postgres server
+
+```
+$ psql postgres                // Logs into psql command line
+$ psql postgres -U <username>  // Login with a username
+```
+
+### Command line utilities
 
 ```
 Instead of logging into psql, executing SQL queries, and needing to know the details of the query statements, you can
@@ -18,21 +29,11 @@ $ dropdb                # deletes a database
 $ postgres              # executes the SQL server itself
 $ pg_dump               # dumps the contents of a single database to a file
 $ pg_dumpall            # dumps all databases to a file
-$ psql                  # Lets you carry administrative functions without needing to know their actual
-                          SQL commands
+$ psql                  # Lets you carry administrative functions without needing to know their actual SQL commands
 $ initdb                # initialize a PostgreSQL data directory
 ```
 
-##### Configuration
-
-    `psql` is a utility installed with Postgres that lets you carry out administrative functions without needing to know
-    their actual SQL commands. By default, Postgres automatically creates the user postgres. It also creates user for the
-    account you are logged in.
-
-    $ psql postgres                // Logs into psql command line
-    $ psql postgres -U <username>  // Login with a username (not the default one)
-
-##### psql Commands
+### psql Commands
 
 ```
 > \du            # Displays a list of users installed by running a query internally
@@ -43,7 +44,7 @@ Setting password
 > \password postgres
 ```
 
-##### Creating a new user
+### Creating a new user
 
 ```
 > CREATE ROLE admin WITH LOGIN PASSWORD 'admin'
@@ -52,7 +53,7 @@ OR
 > createuser admin --createdb
 ```
 
-##### Create a new Database
+### Create a new Database
 
 ```
 > CREATE DATABASE databasename;
@@ -71,6 +72,3 @@ super users, who can access everything).
 Rename a database
 > ALTER DATABASE super_awesome_application RENAME TO even_more_awesome_application;
 ```
-
-
-

@@ -15,6 +15,8 @@ Make sure the service is up and running, however the way it was installed on the
 If you have to create a DB, which you should for your new application
 $ initdb <db_directory> -E utf8
 $ initdb /usr/local/var/postgres -E utf8
+
+Ideally we shouldn't need this step, since creating DB should be part of automation.
 ```
 
 ##### Node.js
