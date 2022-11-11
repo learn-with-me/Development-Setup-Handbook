@@ -1,28 +1,47 @@
-# Terminal Cheatsheet
+# Bash Commands
 
-##### Plugins
+### Braces Expansion
 
 ```
-$ bash --version                      # Bash version
+This is a cool technique to perform multiple operations via a simple modification
 
-Auto Completion
-$ brew install bash-completion        ## If running Bash 3.2 included with macOS
-$ brew install bash-completion@2      ## or, if running Bash 4.1+
+$ cp config.json{,.backup}        # copy existing file as config.json.backup
+$ mkdir -p project/{a,b,c}/src    # Create multiple directory structures.
+    $ tree                            # Validate the directory structures created above
+$ echo pre-{a,b,c}-post           # Returns pre-a-post, pre-b-post, pre-c-post
+$ echo {1..10}                    # Returns integer sequence 1 to 10
+$ echo {a..j}                     # Returns char sequence from a to j
+
+Part of the expansion are few unique commands
+$ !!                 # Runs the last command executed. Useful when you forgot to add sudo
+$ sudo !!
+
+$ !$                 # Refers to the last argument of the previous command
+$ touch script.sh
+$ chmod +x !$        # This will already know to replace script.sh here
 ```
 
-##### Commands
+### Pipes
+
+```
+Pipes pass output of one command to the next command
+
+$ uglify -c -m -- index.js | gzip -9 | wc -c
+
+uglify    # npm module installed globally
+-c        # compress file
+-m        # minify file
+-9        # Compress to maximum
+-c        # Return byte count instead of word count
+```
+
+### Commands
 
     which command        // Returns the location of the binary installed
     env                  // Prints out all the environment variables
     sudo env             // Prints out all the environment variables for sudo not the current user
     command -v ls        // Returns the location of the binary installed. Seems same as `which` command
     hostname
-
-    # Find and kill a process
-    $ sudo lsof -i :8080 | grep LISTEN        # Find out what program listens on port 8080
-    $ ps -ef 42975                            # Name of process does not tell enough. Now find by port number for details.
-    $ kill -9 <PID>                           # Either kill the process by PID directly after step 1 or come through step 2
-
 
     tee    - utility copies standard input to standard output, making a copy in zero or more files. Output is unbuffered.
 
@@ -37,10 +56,9 @@ $ brew install bash-completion@2      ## or, if running Bash 4.1+
     sudo mount /dev/cdrom /media/cdrom
     id                                     // Displays user and group information
     getent group vboxsf                    // Display who all have access to the folder???
-    sudo usermod -a -G vboxsf anshul       // Provide user access
+    sudo usermod -a -G vboxsf <name>       // Provide user access
     ls -1 | grep apache
     sudoedit sites-available/vboxsf.conf
-
 
     Apache
     ======
@@ -48,6 +66,3 @@ $ brew install bash-completion@2      ## or, if running Bash 4.1+
     sudo a2ensite vboxsf
     sudo a2dissite 000-default
     service apache2 reload
-
-
-

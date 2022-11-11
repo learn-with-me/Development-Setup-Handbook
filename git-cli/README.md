@@ -29,7 +29,7 @@ $ sudo apt-get install git            // Debian-based distribution like Ubuntu
 These are basic package management tools that comes pre-installed
 ```
 
-## Configuration
+## Global Configuration
 
 By default there is no need for additional configuration. This step is optional if you want to change something.
 ```

@@ -1,6 +1,6 @@
 # Maven
 
-It is a build management tool capable of bundling the project and effectively handle dependency management.
+Maven is a build management tool capable of bundling the project and effectively handle dependency management.
 
 ##### Official Documentation
 
@@ -11,6 +11,8 @@ http://books.sonatype.com/mvnref-book/reference/
 ```
 
 ##### Installation
+
+Best way to install would be through [sdkman](./version-manager.md). Alternatives below.
 
 ```
 Option 1
@@ -26,8 +28,3 @@ $ brew install maven@3.3
 Option 3
 $ brew install maven
 ```
-
-##### 
-
-
-

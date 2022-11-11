@@ -1,8 +1,5 @@
 # PostgreSQL
 
-> **Source:** [https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx](https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx)
-
-
 1. [Installation](./local-installation.md) (local)
 2. Cheatsheet - [DB/Table Metrics](./tips/db-metrics.md)
 3. Cheatsheet - [DB Troubleshooting](./tips/troubleshooting.md)
@@ -33,5 +30,6 @@ https://www.pgadmin.org/docs/pgadmin4/dev/index.html
 
 ## References
 
-1. http://www.postgresqltutorial.com/
-2. Cheatsheet - https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546
+1. [Source Tutorial](https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx)
+2. http://www.postgresqltutorial.com/
+3. Cheatsheet - https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546
