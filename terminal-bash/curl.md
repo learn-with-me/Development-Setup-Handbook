@@ -24,6 +24,13 @@ $ curl -X POST \
        -H "Content-Type: application/json" \
        -d '{"title": "new post"}' \
        localhost:3000/api/posts                     # line break for readibility
+
+Add Headers to the request
+$ curl --location --request POST \
+       -H "Content-Type: application/json" \
+       -H "User-Agent: some_user_agent" \
+       -d '{"title": "new post"}' \
+       localhost:3000/api/posts                     # line break for readibility
 ```
 
 Other Options

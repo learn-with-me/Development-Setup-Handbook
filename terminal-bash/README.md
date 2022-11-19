@@ -4,15 +4,16 @@
 
 1. iTerm2 [Customization](./customize-iterm2.md)
 2. Hyper [Customization](./customize-hyper.md)
-3. [bash profile](./bash-profile.md)
-4. [bash script](./bash-script.md)
-5. [curl](./curl.md)
-6. Tips - [Find Files & Directories](./tips/find-files-directories.md)
-7. Tips - [Handling Files & Directories](./tips/handling-files-directories.md)
-8. Tips - [Keyboard Shortcuts](./tips/keyboard-shortcuts.md)
-9. Tips - [Kill a process](./tips/kill-process.md)
-10. Tips - [Search Text - grep](./tips/search-text-grep.md)
-11. [Cheatsheet](./cheatsheet.md)
+3. [Aliases](./aliases.md)
+4. [bash profile](./bash-profile.md)
+5. [bash script](./bash-script.md)
+6. [curl](./curl.md)
+7. Tips - [Find Files & Directories](./tips/find-files-directories.md)
+8. Tips - [Handling Files & Directories](./tips/handling-files-directories.md)
+9. Tips - [Keyboard Shortcuts](./tips/keyboard-shortcuts.md)
+10. Tips - [Kill a process](./tips/kill-process.md)
+11. Tips - [Search Text - grep](./tips/search-text-grep.md)
+12. [Cheatsheet](./cheatsheet.md)
 
 ## Plugins
 
