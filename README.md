@@ -15,22 +15,22 @@ This book acts as a reference guide to common commands. You may or may not see t
 
 ## Index
 
-- [AWS CLI](./aws-cli/)
-- [Docker CLI](./docker-cli/)
-- [Git CLI](./git-cli/)
-- [Homebrew](./homebrew/)
-- [Java CLI](./java-cli/)
-- [kubectl](./kubectl/)
-- [kustomize](./kustomize/)
-- [PostgreSQL](./postgresql/)
-- [Python CLI](./python-cli/)
-- [Splunk](./splunk/)
-- [SSH](./ssh/)
-- [Terminal Bash](./terminal-bash/)
+- [AWS CLI](./src/AWS%20cli/)
+- [Docker CLI](./src/Docker%20cli/)
+- [Git CLI](./src/git-cli/)
+- [Homebrew](./src/homebrew/)
+- [Java CLI](./src/java-cli/)
+- [kubectl](./src/kubectl/)
+- [kustomize](./src/kustomize/)
+- [PostgreSQL](./src/postgresql/)
+- [Python CLI](./src/python-cli/)
+- [Splunk](./src/splunk/)
+- [SSH](./src/SSH/)
+- [Terminal Bash](./src/terminal-bash/)
 
 ## Contribution
 
-Refer [contributing guidelines](../docs/CONTRIBUTING.md) for making contributions to the template.
+Refer [contributing guidelines](./docs/CONTRIBUTING.md) for making contributions to the template.
 
 - Issue Tracker: https://github.com/goel4ever/Development-Setup-Handbook/issues
 - Source Code: https://github.com/goel4ever/Development-Setup-Handbook
