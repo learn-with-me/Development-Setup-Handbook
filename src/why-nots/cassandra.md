@@ -51,6 +51,3 @@ https://docs.datastax.com/en/cql/3.3/cql/cql_using/startCqlLinuxMac.html
 ```
 https://gist.github.com/hkhamm/a9a2b45dd749e5d3b3ae
 ```
-
-
-
