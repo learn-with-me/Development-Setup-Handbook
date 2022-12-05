@@ -96,11 +96,6 @@ Sometimes when you switch users on the same machine, you may run into permission
 sudo chown -R $(whoami) $(brew --prefix)/*
 ```
 
-#### More info
+## References
 
-```
-Refer https://brew.sh/
-```
-
-
-
+- [Official Site](https://brew.sh/)
