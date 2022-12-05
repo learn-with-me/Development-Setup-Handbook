@@ -43,9 +43,9 @@ theme:
     # - toc.integrate
   plugins:
     - tags
-  extra:
-    homepage: https://learn-with-me.github.io/Development-Setup-Handbook/
-    copyright: Copyright &copy; 2022 - 2023 goel4ever
-    analytics:
-      provider: google
-      property: G-DDM7Y35EZW
+extra:
+  homepage: https://learn-with-me.github.io/Development-Setup-Handbook/
+  copyright: Copyright &copy; 2022 - 2023 goel4ever
+  analytics:
+    provider: google
+    property: G-DDM7Y35EZW
