@@ -1,4 +1,4 @@
-# NPM Packages
+# Popular Packages
 
 Here is a list of commonly used packages that may be helpful
 
@@ -54,6 +54,3 @@ Here is a list of commonly used packages that may be helpful
 | :--- | :--- |
 | cluster | Multi-core server manager for Node.js |
 | pm2 | Process manager for node.js with built-in load balancer |
-
-
-

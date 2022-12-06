@@ -1,4 +1,4 @@
-# NPM \(Node Package Manager\)
+# NPM (Node Package Manager)
 
 Most popular choice for Node as a package manager. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs.
 

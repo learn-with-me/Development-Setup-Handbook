@@ -1,4 +1,4 @@
-# Yarn \(Package Manager\)
+# Yarn (Package Manager)
 
 An upcoming popular choice as a Package manager, developed by Facebook
 
