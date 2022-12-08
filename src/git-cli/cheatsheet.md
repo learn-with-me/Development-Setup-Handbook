@@ -10,6 +10,7 @@ $ git clone <repo-url/path>               // Clone an existing remote repo or lo
 $ git status                              // List which files are staged, unstaged and untracked
 $ git add <directory>                     // Stage all changes in directory for the next commit
 $ git commit -m "<message>"               // Commit the staged snapshot with <message> as commit message
+$ git commit --amend                      // Update last commit message
 $ git log                                 // Display the entire commit history using default format. (customize)
 $ git diff                                // Show unstaged changes between your index and working directory.
 $ git diff HEAD                           // Show difference between working directory and last commit

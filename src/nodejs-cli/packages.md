@@ -54,3 +54,11 @@ Here is a list of commonly used packages that may be helpful
 | :--- | :--- |
 | cluster | Multi-core server manager for Node.js |
 | pm2 | Process manager for node.js with built-in load balancer |
+
+### Interesting packages to check out
+
+```
+https://www.npmjs.com/package/memwatch-next
+https://www.npmjs.com/package/heapdump
+https://www.npmjs.com/package/autocannon
+```

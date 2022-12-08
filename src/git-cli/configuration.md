@@ -7,3 +7,7 @@ By default there is no need for additional configuration. This step is optional 
 git config --global user.name "First Last"
 git config --global user.email "username@gmail.com"
 ```
+
+## References
+
+- https://www.moncefbelyamani.com/first-things-to-configure-before-using-git/
