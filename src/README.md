@@ -30,7 +30,7 @@ This book acts as a reference guide to common commands. You may or may not see t
 
 ## Contribution
 
-Refer [contributing guidelines](../docs/CONTRIBUTING.md) for making contributions to the template.
+Refer `/docs/CONTRIBUTING.md` in the repo for making contributions to the template.
 
 - Issue Tracker: https://github.com/goel4ever/Development-Setup-Handbook/issues
 - Source Code: https://github.com/goel4ever/Development-Setup-Handbook
