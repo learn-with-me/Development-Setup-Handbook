@@ -5,6 +5,7 @@ I prefer working on the pi remotely from my laptop, where I have everything set 
 ## Index
 
 - [First time setting up the device](./01-setting-up-device.md)
+- [Accessing the pi remotely](./02-accessing-remotely.md)
 
 ## References
 
