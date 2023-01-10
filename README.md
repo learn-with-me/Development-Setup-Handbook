@@ -28,6 +28,19 @@ This book acts as a reference guide to common commands. You may or may not see t
 - [SSH](./src/SSH/)
 - [Terminal Bash](./src/terminal-bash/)
 
+## Tips
+
+- Shortcuts available by default
+  - Search: `s`, `/`
+  - Previous: `p`
+  - Next: `n`
+
+### Run locally
+
+```sh
+$ source scripts/setup.sh
+```
+
 ## Contribution
 
 Refer [contributing guidelines](./docs/CONTRIBUTING.md) for making contributions to the template.

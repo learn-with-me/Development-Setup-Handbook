@@ -14,6 +14,7 @@
 10. Tips - [Kill a process](./tips/kill-process.md)
 11. Tips - [Search Text - grep](./tips/search-text-grep.md)
 12. [Cheatsheet](./cheatsheet.md)
+13. [Linux Commands](https://xmind.app/m/WwtB/) by Alex Xu
 
 ## Plugins
 
