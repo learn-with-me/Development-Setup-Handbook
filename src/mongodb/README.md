@@ -1,34 +1,15 @@
 # MongoDB
 
-##### Installation
+Go to the links below to get help on following topics.
 
-Download and install from [here](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/), or follow directions below
+* [Installation](./01_installation.md)
+* [Cheatsheet](./02_cheatsheet.md)
 
-```
-$ brew tap mongodb/brew
-$ brew install mongodb-community
-```
+## Running Service
 
-##### Verification
-
-```
-$ mongod --version        # Primary daemon process for the MongoDB system
-It handles data requests, manages data access, and performs background management operations.
-
-$ mongo --version         # Interactive JavaScript shell interface to MongoDB
-Provides a powerful interface for systems administrators as well as a way for developers to test queries and operations
-directly with the database. Also provides a fully functional JavaScript environment for use with a MongoDB.
-```
-
-##### Execution
-
-```
-$ mkdir -p /data/db            # Create the directory to which the mongod process will write data
-By default, the mongod process uses the /data/db. If you create a directory other than this one, you must specify that
-directory in the dbpath option when starting the mongod process.
-
-$ sudo chmod a+rw /data/db     # Set read and write permissions for the data directory
-$ mongod                       # Run MongoD
+```sh
+# Run MongoD
+$ mongod
 
 Begin using MongoDB
 $ mongo --host 127.0.0.1:27017
@@ -38,23 +19,6 @@ localhost interface on port 27017
 
 User's Home should have a file .mongorc.js
 mongo interprets the content of .mongorc.js before displaying the prompt for the first time.
-```
-
-##### mongo shell
-
-```
-> db                    # Displays the database you are using
-> help                  # Displays all the commands available
-> show dbs              # List available databases
-> use <database>        # Switch database. This creates a new DB if it does not exist
-
-Creates collection myCollection and inserts data
-> db.myCollection.insertOne( { x: 1 } );
-
-Other Commands
-> db.getCollection("myCollection")
-> db.getCollection("myCollection").find()        # same as db.myCollection.find()
-> quit()                                         # Exit the shell
 ```
 
 ##### MongoDB Compass

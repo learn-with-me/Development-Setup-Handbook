@@ -1,0 +1,51 @@
+# Installation
+
+## Install
+
+Download and install from [here](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/), or follow directions below
+
+```sh
+$ brew tap mongodb/brew
+$ brew install mongodb-community
+```
+
+Once installation is finished, you should see something like below:
+
+```sh
+To start mongodb/brew/mongodb-community now and restart at login:
+  brew services start mongodb/brew/mongodb-community
+
+Or, if you don't want/need a background service you can just run:
+  mongod --config /usr/local/etc/mongod.conf
+```
+
+## Verify
+
+```sh
+# Primary daemon process for the MongoDB system
+# It handles data requests, manages data access, and performs background management operations.
+$ mongod --version
+
+# Shell for connecting to remote MongoDB instances
+mongosh --version
+
+Provides a powerful interface for systems administrators as well as a way for developers to test queries and operations directly with the database. Also provides a fully functional JavaScript environment for use with a MongoDB.
+
+# Explore all other database tools here:
+# https://www.mongodb.com/docs/database-tools/
+# or
+# https://github.com/mongodb/homebrew-brew
+```
+
+## Write Directory
+
+### Configurations
+
+MongoDB stores system level configurations in `/usr/local/etc/mongod.conf` file.
+
+You won't need any changes here to get started. However, if you need to make some changes, make sure to restart the service, for it to pick up the changes.
+
+### Default Directory
+
+The default location for `dbPath` is `/usr/local/var/mongodb`.
+To use a custom path, update this path in `mongod.conf` file.
