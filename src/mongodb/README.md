@@ -2,12 +2,11 @@
 
 ##### Installation
 
-```
-Option 1
-Download and install from https://www.mongodb.com/download-center#community
+Download and install from [here](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/), or follow directions below
 
-Option 2
-$ brew install mongodb
+```
+$ brew tap mongodb/brew
+$ brew install mongodb-community
 ```
 
 ##### Verification
