@@ -40,6 +40,18 @@ $ mongosh "mongodb://localhost:27017"
 # https://github.com/mongodb/homebrew-brew
 ```
 
+## Start/Stop Service
+
+```sh
+# Start the database
+$ brew services start mongodb-community
+or
+$ mongod
+
+# Stop the database
+brew services stop mongodb-community
+```
+
 ## Write Directory
 
 ### Configurations
