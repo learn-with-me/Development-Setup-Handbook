@@ -27,9 +27,12 @@ Or, if you don't want/need a background service you can just run:
 $ mongod --version
 
 # Shell for connecting to remote MongoDB instances
-mongosh --version
+$ mongosh --version
 
 Provides a powerful interface for systems administrators as well as a way for developers to test queries and operations directly with the database. Also provides a fully functional JavaScript environment for use with a MongoDB.
+
+# To test the connection with the database, run below
+$ mongosh "mongodb://localhost:27017"
 
 # Explore all other database tools here:
 # https://www.mongodb.com/docs/database-tools/
@@ -49,3 +52,7 @@ You won't need any changes here to get started. However, if you need to make som
 
 The default location for `dbPath` is `/usr/local/var/mongodb`.
 To use a custom path, update this path in `mongod.conf` file.
+
+## References
+
+* [MongoDB Shell](https://www.mongodb.com/docs/mongodb-shell/connect/)
