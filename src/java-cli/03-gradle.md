@@ -16,7 +16,7 @@ Gradle is a build management tool capable of bundling the project and effectivel
 
 > In a lot of cases you may not need to install gradle globally. Instead your project may have a local gradle copy, that can be accessed in some cases by `$ ./gradlew -v`
 
-Best way to install would be through [sdkman](./version-manager.md). Alternatively use `brew`.
+Best way to install would be through [sdkman](./01-version-manager.md). Alternatively use `brew`.
 
 ```sh
 # Option 1

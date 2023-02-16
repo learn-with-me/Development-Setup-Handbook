@@ -10,7 +10,7 @@ Maven is a build management tool capable of bundling the project and effectively
 
 ## Installation
 
-Best way to install would be through [sdkman](./version-manager.md).
+Best way to install would be through [sdkman](./01-version-manager.md).
 
 ```sh
 # Option 1

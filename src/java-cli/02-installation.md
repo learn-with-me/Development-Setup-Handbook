@@ -4,7 +4,7 @@ It is best to use a version manager instead of installing java directly, as jdk 
 
 ## Installing JDK
 
-Using [SDKMan](./version-manager.md)
+Using [SDKMan](./01-version-manager.md)
 
 ```sh
 # List all the versions available for Java

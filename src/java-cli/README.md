@@ -4,7 +4,7 @@
 * [Installing JDK](./02-installation.md)
 * [Installing Gradle](./03-gradle.md)
 * [Installing Maven](./04-maven.md)
-* [Java Performance](./05-java-performance.md)
+* [Java Performance](./performance/index.md)
 
 ## References
 
