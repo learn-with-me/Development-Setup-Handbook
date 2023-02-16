@@ -9,6 +9,8 @@ Gradle is a build management tool capable of bundling the project and effectivel
 * Official [Community Resources](https://gradle.org/resources/)
 * [Maven vs Gradle comparison](https://gradle.org/maven-vs-gradle/)
 * [Gradle + Kotlin](https://gradle.org/kotlin/)
+* [Gradle CLI completion](https://github.com/gradle/gradle-completion)
+* [Gradle Wrapper](https://docs.gradle.org/8.0/userguide/gradle_wrapper.html)
 
 ## Installation
 

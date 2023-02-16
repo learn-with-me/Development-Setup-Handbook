@@ -20,19 +20,19 @@ theme:
   font:
     text: Roboto
   palette: 
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: default
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: slate
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.instant
     - navigation.tracking
@@ -42,6 +42,9 @@ theme:
     # - toc.integrate
   plugins:
     - tags
+plugins:
+  - search
+  - git-revision-date-localized
 extra:
   homepage: https://learn-with-me.github.io/Development-Setup-Handbook/
   copyright: Copyright &copy; 2022 - 2023 goel4ever
