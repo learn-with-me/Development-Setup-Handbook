@@ -1,9 +1,10 @@
 # Java
 
-* [Version Manager](./version-manager.md)
-* [Installing JDK](./installation.md)
-* [Installing Maven](./maven.md)
-* [Java Performance](./java-performance.md)
+* [Version Manager](./01-version-manager.md)
+* [Installing JDK](./02-installation.md)
+* [Installing Gradle](./03-gradle.md)
+* [Installing Maven](./04-maven.md)
+* [Java Performance](./05-java-performance.md)
 
 ## References
 

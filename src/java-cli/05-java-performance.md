@@ -1,8 +1,12 @@
 # Application monitoring & Performance testing
 
-With better hardware, an application with perform better. However before it comes to that, there are several improvements that can be done on the application itself consuming resources. 
+An application can do "more" with better hardware, but it won't necessarily perform better. Scaling up the hardware is one way to solve the problem, but if there are performance bottlenecks, even scaling up may not always help. Hence this would be the time to look for improvements that can be done on the application itself consuming resources.
 
-## Performance bottlenecks - Hardware Resources
+## Performance bottlenecks
+
+> Note: Before even solving a performance issue, make sure that one exists in the first place.
+
+### Hardware Resources
 
 > To analyze a system's performance, we should examine the utilization, saturation and errors of every significant resource that makes up the system -- Brendan Gregg
 
@@ -30,9 +34,9 @@ Performance is the amount of work accomplished by a computer system. This work c
 * Operations per second
 * Instructions per second
 
-> Fact: Sequential data access is generally faster than random access
+> Fact: Sequential data access is generally faster than random access. This is because the disk-head has to travel lesser distance in accessing the data.
 
-## Performance bottlenecks - Software Resources
+### Software Resources
 
 * Thread pools
   * Utilization - number of threads currently executing a task
