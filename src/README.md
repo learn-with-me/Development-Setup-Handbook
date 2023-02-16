@@ -1,3 +1,10 @@
+---
+tags:
+  - handbook
+  - developer
+  - index
+---
+
 # Development Setup
 
 Everything you need to know about getting started with listed technology.
