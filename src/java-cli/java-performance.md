@@ -2,7 +2,7 @@
 
 With better hardware, an application with perform better. However before it comes to that, there are several improvements that can be done on the application itself consuming resources. 
 
-#### Performance bottlenecks - Hardware Resources
+## Performance bottlenecks - Hardware Resources
 
 > To analyze a system's performance, we should examine the utilization, saturation and errors of every significant resource that makes up the system -- Brendan Gregg
 
@@ -32,7 +32,7 @@ Performance is the amount of work accomplished by a computer system. This work c
 
 > Fact: Sequential data access is generally faster than random access
 
-#### Performance bottlenecks - Software Resources
+## Performance bottlenecks - Software Resources
 
 * Thread pools
   * Utilization - number of threads currently executing a task
@@ -45,7 +45,7 @@ Performance is the amount of work accomplished by a computer system. This work c
   * Saturation - number of items waiting for the thread of file descriptor to be allocated
   * Errors - number of allocation failures
 
-#### Performance Testing Tools - OS
+## Performance Testing Tools - OS
 
 * Linux tools
   * vmstat - CPU utilization
@@ -64,13 +64,13 @@ Performance is the amount of work accomplished by a computer system. This work c
 * Explore for Mac ------
   * vmmap
 
-#### Monitoring at a later time
+### Monitoring at a later time
 
 All the tools discussed above give you stats on the current time. If there is a need to look at these stats over time or between specific timestamp, these stats needs to be exported to additional tools. 
 
 More to come in this section................
 
-#### Application Performance Metrics
+## Application Performance Metrics
 
 Performance is a key usability and quality metric. Phrases like making fast and improving scalability are vague and subjective and don't make very good performance targets. As a result, the industry has come up with widely accepted terms for quantifying performance:
 
@@ -80,7 +80,7 @@ Performance is a key usability and quality metric. Phrases like making fast and 
 
 ### Differences between monitoring and performance improvement
 
-#### Production Monitoring
+## Production Monitoring
 
 * Operations activity
 * Collect and aggregate metric data
@@ -108,7 +108,7 @@ Production monitoring is broken into three parts
   * JMX tools
   * Prometheus dashboards
 
-#### Performance Testing
+## Performance Testing
 
 * Development activity
 * Define application/component under test
@@ -117,7 +117,7 @@ Production monitoring is broken into three parts
 
 ## Java Performance
 
-#### Topics - Base
+### Topics - Base
 
 * Application monitoring and performance testing
 * Java profilers
@@ -130,14 +130,14 @@ Production monitoring is broken into three parts
   * how to minimize lock contention
 * Avoid doing expensive operations
 
-#### Topics - Advanced
+### Topics - Advanced
 
 * Microbenchmarking - use Java microbenchmarking harness library
 * Statistical measurements
 * Database query tuning
 * Concurrency basics
 
-#### Performance Testing Tools - Java
+### Performance Testing Tools - Java
 
 * JMC \(Java Mission Control\) - tool for collecting low level and detailed runtime information from a JVM. JMC contains a graphical UI for Java Flight Recorder. JMC can connect to both local and remote processes, provided JMX monitoring is enabled on the server. JMC integrates well with these tools:
   * jstat \(JVM statistics\)
@@ -158,7 +158,7 @@ Production monitoring is broken into three parts
 * jcmd - command line equivalent of Java Mission Control. The only difference is that it cannot connect to remote processes. Hence it is useful when you want to monitor process on a remote server however are unable to enable JMX monitoring on the server. If you have ssh access to the remote server, you can ssh into it and run **jcmd** to get all the information you would've gotten via Mission control.
 * jMeter - tool for load testing and analyzing the performance of web apps
 
-#### Java Profilers
+### Java Profilers
 
 JVM generates a lot of events in either of the categories below:
 
@@ -190,7 +190,7 @@ Java profilers provide information on:
 * class loading
 * etc.
 
-###### Tools
+### Tools
 
 * JProfiler
 * Yourkit Java Profiler
