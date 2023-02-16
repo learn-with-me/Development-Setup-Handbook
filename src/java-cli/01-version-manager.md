@@ -1,4 +1,4 @@
-# Java Version Manager [SDKMan]
+# SDK Manager
 
 [sdkman](https://sdkman.io/) is a great tool for managing parallel versions of multiple software development kits on most Unix based systems.
 

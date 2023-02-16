@@ -13,18 +13,18 @@ An application can do "more" with better hardware, but it won't necessarily perf
 Here are the metrics to look for when analyzing performance on a hardware: 
 
 * **Utilization** - proportion of a resource that is used or the average time that the resource was busy servicing work
-  * CPU cycle
-  * RAM capacity
-  * Disk capacity
-  * Disk I/O
-  * Network I/O
+    * CPU cycle
+    * RAM capacity
+    * Disk capacity
+    * Disk I/O
+    * Network I/O
 * **Saturation** - degree to which the resource has extra work that it can't service
-  * CPU run queue
-  * Disk  swap space
+    * CPU run queue
+    * Disk  swap space
 * **Errors** - count of error events for a resource
-  * Error handling
-  * Retries
-  * Fewer pool  resources
+    * Error handling
+    * Retries
+    * Fewer pool  resources
 
 Performance is the amount of work accomplished by a computer system. This work can be defined at various level of granularity like:
 
@@ -39,34 +39,34 @@ Performance is the amount of work accomplished by a computer system. This work c
 ### Software Resources
 
 * Thread pools
-  * Utilization - number of threads currently executing a task
-  * Saturation -  number of items in the thread pool work queue
+    * Utilization - number of threads currently executing a task
+    * Saturation -  number of items in the thread pool work queue
 * Locks
-  * Utilization - time the lock was held
-  * Saturation - number of threads queued and waiting on the lock
+    * Utilization - time the lock was held
+    * Saturation - number of threads queued and waiting on the lock
 * Threads/File descriptors
-  * Utilization - number of threads or file descriptors in use
-  * Saturation - number of items waiting for the thread of file descriptor to be allocated
-  * Errors - number of allocation failures
+    * Utilization - number of threads or file descriptors in use
+    * Saturation - number of items waiting for the thread of file descriptor to be allocated
+    * Errors - number of allocation failures
 
 ## Performance Testing Tools - OS
 
 * Linux tools
-  * vmstat - CPU utilization
-    * Command: vmstat 1 10
-    * CPU can be idle if doing nothing. However it can also be idle if the running application is blocked due to waiting on a lock or waiting on an I/O
-  * iostat - disk I/O saturation \(install sysstat if iostat not available\)
-    * Command: iostat -xm
+    * vmstat - CPU utilization
+        * Command: vmstat 1 10
+        * CPU can be idle if doing nothing. However it can also be idle if the running application is blocked due to waiting on a lock or waiting on an I/O
+    * iostat - disk I/O saturation \(install sysstat if iostat not available\)
+        * Command: iostat -xm
 * Windows tools
-  * typeperf
+    * typeperf
 * Other monitoring tools
-  * netstat
-  * nicstat
-  * typeperf
-  * sar
-  * GUI tools
+    * netstat
+    * nicstat
+    * typeperf
+    * sar
+    * GUI tools
 * Explore for Mac ------
-  * vmmap
+    * vmmap
 
 ### Monitoring at a later time
 
@@ -94,23 +94,23 @@ Performance is a key usability and quality metric. Phrases like making fast and 
 Production monitoring is broken into three parts
 
 * Collect
-  * Dropwizard metrics
-  * Micrometer metrics
-  * Netflix Spectator
-  * Google OpenCensus
-  * Prometheus Lib
+    * Dropwizard metrics
+    * Micrometer metrics
+    * Netflix Spectator
+    * Google OpenCensus
+    * Prometheus Lib
 * Store
-  * InfluxDB
-  * ElasticSearch
-  * Graphite
-  * OpenTSDB
-  * Prometheus TSDB
-  * Other commercial tools like DataDog, etc
+    * InfluxDB
+    * ElasticSearch
+    * Graphite
+    * OpenTSDB
+    * Prometheus TSDB
+    * Other commercial tools like DataDog, etc
 * Analyze/Visualize
-  * Grafana
-  * Kibana
-  * JMX tools
-  * Prometheus dashboards
+    * Grafana
+    * Kibana
+    * JMX tools
+    * Prometheus dashboards
 
 ## Performance Testing
 
@@ -129,9 +129,9 @@ Production monitoring is broken into three parts
 * Search & Data structures \(performance of Java Streams\)
 * Memory management
 * Optimizing concurrent code
-  * how to size a thread pool
-  * how to use fork-joint pool
-  * how to minimize lock contention
+    * how to size a thread pool
+    * how to use fork-joint pool
+    * how to minimize lock contention
 * Avoid doing expensive operations
 
 ### Topics - Advanced
@@ -144,11 +144,11 @@ Production monitoring is broken into three parts
 ### Performance Testing Tools - Java
 
 * JMC \(Java Mission Control\) - tool for collecting low level and detailed runtime information from a JVM. JMC contains a graphical UI for Java Flight Recorder. JMC can connect to both local and remote processes, provided JMX monitoring is enabled on the server. JMC integrates well with these tools:
-  * jstat \(JVM statistics\)
-  * jinfo \(JVM configuration info\)
-  * jmap \(Java memory map\)
-  * jstack \(stack traces\)
-  * jconsole \(JMX MBeans\)
+    * jstat \(JVM statistics\)
+    * jinfo \(JVM configuration info\)
+    * jmap \(Java memory map\)
+    * jstack \(stack traces\)
+    * jconsole \(JMX MBeans\)
     ```
     If you don't find jmc in your jdk, you could be using OpenJDK, install from http://jdk.java.net/jmc/
 

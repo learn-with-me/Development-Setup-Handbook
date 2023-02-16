@@ -2,36 +2,22 @@
 
 It is best to use a version manager instead of installing java directly, as jdk version requirements may change between projects.
 
-1. [Version Manager](./version-manager.md)
-2. [Maven](./maven.md)
-
 ## Installing JDK
 
 Using [SDKMan](./version-manager.md)
 
 ```sh
-# Install SDKMan
-$ curl -s "https://get.sdkman.io" | bash
-$ source "$HOME/.sdkman/bin/sdkman-init.sh"
-
-# Verify Installed version
-$ sdk version
+# List all the versions available for Java
+$ sdk list java
 
 # Install latest stable version of Java
 $ sdk install java
 
-# Note: It can be used for other JDKs and SDKs, like example below
-$ sdk install scala
-Check https://sdkman.io/
+# Install specific version of Java
+$ sdk install java x.y.z-open
 
-# List all the versions available for Java
-$ sdk list java
-
-# Switch to another version of Java
+# Switch to another version of Java (installed already locally)
 $ sdk use java 11.0.1-open
-
-# Help!!
-$ sdk man
 ```
 
 ### Verify Installation
