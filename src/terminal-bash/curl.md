@@ -1,41 +1,47 @@
-# Making HTTP requests with curl
+# Using curl
 
-```
+Making HTTP requests with curl
+
+## GET with curl
+
+```sh
+# The most basic GET call
 $ curl <url>
-$ curl https://google.com        # most basic GET call
+$ curl https://google.com
 
-Display Response Headers
+# Display Response Headers
 $ curl -i https://swapi.co/api/people/2
 
-Add Headers to the request
+# Add Headers to the request
 $ curl -H "Authorization: Bearer 123" localhost:3000/api/posts
 ```
 
-POST Call
+## POST with curl
 
-```
+```sh
 $ curl -X POST -H "Content-Type: application/json" -d '{"title": "new post"}' localhost:3000/api/posts
 
-Display Response Headers
+# Display Response Headers
 $ curl -i -X POST --data-urlencode title="new post" active="y" localhost:3000/api/posts
 
-Add Headers to the request
+# Add Headers to the request
+# with line break for readibility
 $ curl -X POST \
        -H "Content-Type: application/json" \
        -d '{"title": "new post"}' \
-       localhost:3000/api/posts                     # line break for readibility
+       localhost:3000/api/posts
 
-Add Headers to the request
+# Add Headers to the request
 $ curl --location --request POST \
        -H "Content-Type: application/json" \
        -H "User-Agent: some_user_agent" \
        -d '{"title": "new post"}' \
-       localhost:3000/api/posts                     # line break for readibility
+       localhost:3000/api/posts
 ```
 
-Other Options
+## Other Options
 
-```
+```sh
 # Write large json responses to file instead
 $ curl -iL https://google.com -o response.json
 
@@ -53,10 +59,12 @@ $ curl -iL https://google.com | jsome
 --data-urlencode    # Post in a url-encoded form
 ```
 
-Filtering Response
+## Filtering Response
 
-```
-Additional Operations
-$ curl -I https://google.com | head -n 1       # returns only first line of response headers
-$ curl -I https://google.com | head -n 1 | cut -d ' ' -f 2       # returns 2nd part of first line
+```sh
+# Returns only first line of response headers
+$ curl -I https://google.com | head -n 1
+
+# Returns 2nd part of first line
+$ curl -I https://google.com | head -n 1 | cut -d ' ' -f 2
 ```
