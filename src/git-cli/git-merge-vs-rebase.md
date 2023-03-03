@@ -1,4 +1,4 @@
-# Git Merge vs Git Rebase
+# Merge vs Rebase
 
 > Note: This page does not cover all possible scenarios, but only commonly used strategies.
 
@@ -26,9 +26,13 @@ If you want to pull the latest commits from main branch and then apply the commi
 Generally you'd use this before creating a pull request, to make sure it does not end up in a conflict, and that your code still runs as expected after taking the latest code from main branch. You do this for a fact that the code in main branch is the application code that has been accepted in production, so it is your responsibility to make sure that the code in local branch works as expected with the latest code in main branch.
 
 ```sh
-$ git rebase master develop
+$ git rebase <main_branch> <local_branch>
+
+# Default push (without force) will be rejected
 $ git push origin --force
 ```
+
+Rebase does change your local commit id(s). It actually deleted the old commits, rebased main branch on your local branch, and then wrote brand new commits with new commit id(s).
 
 > Note: if you rebase and try to push to GitLab or GitHub, the server won’t allow the operation to be performed. To rebase to GitHub or GitLab, a developer must add the `–force` switch to the git push command to compel the changes to be accepted.
 
