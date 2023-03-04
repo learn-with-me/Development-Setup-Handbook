@@ -1,4 +1,4 @@
-# iTerm2 Customization
+# iTerm2
 
 [iTerm2](http://www.iterm2.com/) is an open source replacement for Apple's Terminal. It's highly customizable and comes with a lot of useful features.
 

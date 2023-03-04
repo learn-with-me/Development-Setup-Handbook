@@ -2,7 +2,7 @@
 
 ### Braces Expansion
 
-```
+```sh
 This is a cool technique to perform multiple operations via a simple modification
 
 $ cp config.json{,.backup}        # copy existing file as config.json.backup
@@ -23,7 +23,7 @@ $ chmod +x !$        # This will already know to replace script.sh here
 
 ### Pipes
 
-```
+```sh
 Pipes pass output of one command to the next command
 
 $ uglify -c -m -- index.js | gzip -9 | wc -c
