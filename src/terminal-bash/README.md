@@ -2,9 +2,7 @@
 
 [brew](./../homebrew/README.md) package manager
 
-1. iTerm2 [Customization](./shells/customize-iterm2.md)
-2. Hyper [Customization](./shells/customize-hyper.md)
-3. [bash profile](./bash-profile.md)
+1. [Shells](./shells/README.md)
 5. [bash script](./bash-script.md)
 6. Tips - [Handling Files & Directories](./tips/handling-files-directories.md)
 9. Tips - [Keyboard Shortcuts](./tips/keyboard-shortcuts.md)
