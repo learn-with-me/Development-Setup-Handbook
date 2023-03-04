@@ -11,22 +11,22 @@
 
 ### Create and Run bash scripts
 
-```
-For a new script, just alone this would fail with permission denied
+```sh
+# For a new script, just alone this would fail with permission denied
 $ ./script.sh
 
-Change permissions for user to be able to execute the file
+# Change permissions for user to be able to execute the file
 $ chmod u+x script.sh
 
-Or change permissions for all user to be able to execute the file
+# Or change permissions for all user to be able to execute the file
 $ chmod +x script.sh
 
-You can pass parameters to the script following $1, $2, $3, . . order in the script
+# You can pass parameters to the script following $1, $2, $3, . . order in the script
 ```
 
 ### Making a script executable
 
-```
+```sh
 $ cp script.sh /usr/local/bin/<command>
 ```
 
@@ -49,7 +49,7 @@ $ echo $?
 
 ### Conditional Statements
 
-```
+```sh
 if [[ -z myvar ]]; then              # Check is the variable is empty
     echo "true"
 elif [[ -e script.sh ]]; then        # Check is file exists
@@ -70,7 +70,7 @@ Ternary Operation
 
 #### Setting and Unsetting an environment variable
 
-```
+```sh
 Bash sets a lot of environment variables.
 $ env           # list all the current environment variables
 $ var=12        # Sets a variable (not an environment variable)
