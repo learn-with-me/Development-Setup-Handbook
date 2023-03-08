@@ -5,19 +5,17 @@
 Tengine doesn't have a readily available docker image
 
 ### Download Tengine
-```
+```sh
 https://tengine.taobao.org/download.html
 
-or
-
-Direct download link
+# or Direct download link
 https://tengine.taobao.org/download/tengine-2.3.3.tar.gz
 ```
 
 ### Base Debian Container
 
-```
-Run debian container and get to the bash prompt
+```sh
+# Run debian container and get to the bash prompt
 $ docker run -it debian bash
 ```
 
@@ -47,31 +45,30 @@ It'll also require PCRE and OpenSSL libraries
 /# apt-get install -y libpcre3-dev
 /# apt-get install -y libssl-dev
 
-
 /# apt-get install -y make
 ```
 
 Install tengine
-```
+```sh
 /opt/tengine-2.3.3# ./configure
 /opt/tengine-2.3.3# make
 /opt/tengine-2.3.3# make install
 
-by default, it will be installed to /usr/local/nginx
+# by default, it will be installed to /usr/local/nginx
 ```
 
 Start the server
-```
-Check if the server is running
+```sh
+# Check if the server is running
 /# ps aux
 
-If not, go to the installation location, or run the executable below
+# If not, go to the installation location, or run the executable below
 /# /usr/local/nginx/sbin/nginx
 
-Check if the server is running
+# Check if the server is running
 /# ps aux
 
-You should see a master and worker process
+# You should see a master and worker process
 ```
 
 ### Building Dockerfile
@@ -114,7 +111,7 @@ CMD ["/usr/local/nginx/sbin/nginx", "-g", "daemon off;"]
 
 ### Building Tengine Image & Container
 
-```
+```sh
 $ docker build -t custom/tengine:2.3.3 .
 $ docker images
 $ docker run -p 8000:80 custom/tengine:2.3.3

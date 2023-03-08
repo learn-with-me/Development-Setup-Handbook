@@ -17,18 +17,18 @@ CMD node index.js
 
 ### Building the image
 
-```
+```sh
 $ docker build -t myserver .
 
--t specifies the name of the docker image
+# -t specifies the name of the docker image
 ```
 
 ### Running the container
 
-```
+```sh
 $ docker run -p 8001:8000 myserver
 
-Verify the server is running + port forwarding is setup correctly through firewal
+# Verify the server is running + port forwarding is setup correctly through firewal
 $ curl localhost:8001
 ```
 
@@ -36,11 +36,11 @@ $ curl localhost:8001
 
 ### Running Nginx Container
 
-```
-By default nginx runs on port 80
+```sh
+# By default nginx runs on port 80
 $ docker run --rm -p 6000:80 nginx
 
-Verify the server is running + port forwarding is setup correctly through firewal
+# Verify the server is running + port forwarding is setup correctly through firewal
 $ curl localhost:6000
 ```
 
@@ -49,10 +49,10 @@ $ curl localhost:6000
 The intent is to update nginx configurations to proxy web requests into our node.js app
 
 default.conf
-```
-This file will replace default nginx configuration file.
-We have bare-minimum directives in the file.
-Nginx will use default if a directive is not defined.
+```sh
+# This file will replace default nginx configuration file.
+# We have bare-minimum directives in the file.
+# Nginx will use default if a directive is not defined.
 
 server {
     location / {
@@ -74,7 +74,7 @@ copy default.conf /etc/nginx/conf.d/
 
 Building the image
 
-```
+```sh
 $ docker built -t foo/nginx .
 ```
 
