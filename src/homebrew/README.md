@@ -2,7 +2,7 @@
 
 [Official Site](https://brew.sh/)
 
-Missing MacOS package manager. Installs common libraries and utilities not bundled with OSX. Typically these are development related libraries. Installation is dependent on `XCode command line` tools \(large dependency\) and `ruby` to be installed.
+The missing MacOS package manager. Installs common libraries and utilities not bundled with OSX. Typically these are development related libraries. Installation is dependent on `XCode command line` tools \(large dependency\) and `ruby` to be installed.
 
 Homebrew typically deals with command line software. Most of the software are distributed under open source license. Default package install location is `/usr/local`.
 
@@ -44,6 +44,7 @@ $ brew upgrade
 
 ```sh
 # Search all packages containing the keyword
+# It also lists available versions for exact match
 $ brew search <keyword>
 
 # Install a software package on local system.
@@ -55,6 +56,9 @@ $ brew list
 # After you install a package, you get a screenful of information or configuration steps.
 # This will let you see again.
 $ brew info [insert package name here]
+
+# Remove a software package from the local system.
+$ brew remove [insert package name here]
 
 # Remove a package you previously installed.
 $ brew uninstall [insert package name here]
