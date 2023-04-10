@@ -54,25 +54,31 @@ $ deactivate
 > Note: Remember to add venv to your project's .gitignore file so you don't include all of that in your source code!
 > NOte: Preferably install big packages (like Numpy), or ones you always use (like IPython) globally. Rest can be in virtualenv.
 
-##### Virtualenvwrapper
+## Virtualenvwrapper
 
-    For easier management of different virtual environments for multiple packages. Extension to `virtualEnv`.
+Used for easier management of different virtual environments for multiple packages. Extension to `virtualEnv`.
 
-    Features
-    1. Organizes all of your virtual environments in one place (~/.virtualenv). Does not add them to the project directory.
-    2. Wrappers for managing your virtual environments (create, delete, copy).
-    3. Use a single command to switch between environments.
-    4. Tab completion for commands that take a virtual environment as argument.
-    5. User-configurable hooks for all operations.
-            http://virtualenvwrapper.readthedocs.io/en/latest/scripts.html#scripts
-    6. Plugin system for more creating sharable extensions.
-            http://virtualenvwrapper.readthedocs.io/en/latest/plugins.html#plugins
+### Features
 
-    Note: if you have anaconda installed, the packages are installed at location: (probably have virtualenvwrapper already)
-            ~/anaconda2/lib/python2.7/site-packages
-            ~/.local/lib/python2.7/site-packages                // Some packages are still here
+1. Organizes all of your virtual environments in one place (~/.virtualenv). Does not add them to the project directory.
+2. Wrappers for managing your virtual environments (create, delete, copy).
+3. Use a single command to switch between environments.
+4. Tab completion for commands that take a virtual environment as argument.
+5. User-configurable hooks for all operations.
+        http://virtualenvwrapper.readthedocs.io/en/latest/scripts.html#scripts
+6. Plugin system for more creating sharable extensions.
+        http://virtualenvwrapper.readthedocs.io/en/latest/plugins.html#plugins
 
-    $ pip install virtualenvwrapper                             // Installation
-    $ source /usr/local/bin/virtualenvwrapper.sh                // Shell startup file
+> Note: if you have anaconda installed, the packages are installed at location: (probably have virtualenvwrapper already)
+> 1. ~/anaconda2/lib/python2.7/site-packages
+> 2. ~/.local/lib/python2.7/site-packages
 
-    Instructions:: http://virtualenvwrapper.readthedocs.io/en/latest/index.html
+```sh    
+# Installation
+$ pip install virtualenvwrapper
+
+# Shell startup file
+$ source /usr/local/bin/virtualenvwrapper.sh
+```
+
+Instructions:: [latest docs](http://virtualenvwrapper.readthedocs.io/en/latest/index.html)
