@@ -2,46 +2,57 @@
 
 When it comes to Python, it is a good idea to work in a virtual environment. This way you'll never have to deal with version management in your local machine or cleaning up after your work is done.
 
-##### VirtualEnv
+## VirtualEnv
 
-```
-A tool that creates an isolated Python environment for each of your projects. For a particular project, instead of
-installing required packages globally, it is best to install them in an isolated folder in the project (say a folder
-named venv), that will be managed by virtualenv.
+A tool that creates an isolated Python environment for each of your projects. For a particular project, instead of installing required packages globally, it is best to install them in an isolated folder in the project (say a folder named `venv`), that will be managed by virtualenv.
 
 The advantage is that different projects might require different versions of packages, and it would be hard to manage
 that if you install packages globally. It also allows you to keep your global /usr/local/lib/python2.7/site-packages
 folder clean, containing only critical or big packages that you always need (like IPython, Numpy).
+
+### Installation
+
+```sh
+# Installation
+$ pip install virtualenv
+
+# Verify the version
+$ virtualEnv --version
 ```
 
-```
-Installation
-============
-$ pip install virtualenv                    // Installation
-$ virtualEnv --version                      // Verify the version
+### Setup
 
-Usage
-=====
-$ cd myProject && virtualenv venv           // Setup virtual env for the project myProject
-$ virtualenv venv --system-site-packages    // Have virtualenv inherit globally installed packages
-Note: These commands create a venv sub-directory in your project where everything is installed.
+```sh
+# Setup virtual env for the project myProject
+$ cd myProject && virtualenv venv
 
-You need to activate it first though (in every terminal where you are working on your project).
-$ source venv/bin/activate                  // Active virtual environment
-You should see a (venv) appear at the beginning of your terminal prompt indicating that you are working inside the
-virtualenv. Now when you install anything, it will be installed in the venv folder, and not conflict with other projects
+# Have virtualenv inherit globally installed packages
+$ virtualenv venv --system-site-packages
 
-$ deactivate                                // To leave the virtual environment
+# Note: These commands create a venv sub-directory in your project where everything is installed.
 
-Note: Remember to add venv to your project's .gitignore file so you don't include all of that in your source code!
-Preferably install big packages (like Numpy), or ones you always use (like IPython) globally.
-Rest can be in virtualenv.
-
-Create Python3 Virtual Environment
-----------------------------------
+# Create Python3 Virtual Environment
 $ virtualEnv -p python3 venv
-Remember, virtual environment can only be created based off an existing python version installed locally.
 ```
+
+> Note: Remember, virtual environment can only be created based off an existing python version installed locally.
+
+### Usage
+
+To use a virtual environment, uou need to activate it first (in every terminal window, where you are working on your project).
+
+```sh
+# Active virtual environment
+$ source venv/bin/activate
+
+# You should see a (venv) appear at the beginning of your terminal prompt indicating that you are working inside the virtualenv. Now when you install anything, it will be installed in the venv folder, and not conflict with other projects
+
+# To leave the virtual environment
+$ deactivate
+```
+
+> Note: Remember to add venv to your project's .gitignore file so you don't include all of that in your source code!
+> NOte: Preferably install big packages (like Numpy), or ones you always use (like IPython) globally. Rest can be in virtualenv.
 
 ##### Virtualenvwrapper
 
@@ -65,6 +76,3 @@ Remember, virtual environment can only be created based off an existing python v
     $ source /usr/local/bin/virtualenvwrapper.sh                // Shell startup file
 
     Instructions:: http://virtualenvwrapper.readthedocs.io/en/latest/index.html
-
-
-
