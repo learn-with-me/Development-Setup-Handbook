@@ -1,32 +1,31 @@
 # Database & Table Metrics
 
-## Schema
+## Schema Size
 
-```
--- Print database size in use
+```sql
+-- Print size of the database in use
 SELECT pg_size_pretty(pg_database_size('some_database_name'));
-
 ```
 
-## Table
+## Table Size
 
-```
+```sql
 -- Show DB table space in use
 SELECT pg_size_pretty(pg_total_relation_size('table_name'));
 
 -- Print total column size, average size and percentage occupancy in a table
-select
-    sum(pg_column_size(json)) as total_size,
-    avg(pg_column_size(json)) as average_size,
-    sum(pg_column_size(json)) * 100.0 / pg_relation_size('table_name') as percentage
-from table_name;
+SELECT
+    sum(pg_column_size(json)) AS total_size,
+    avg(pg_column_size(json)) AS average_size,
+    sum(pg_column_size(json)) * 100.0 / pg_relation_size('table_name') AS percentage
+FROM table_name;
 
 -- (Pretty) Print total column size, average size and percentage occupancy in a table
-select
-    pg_size_pretty(sum(pg_column_size(json))) as total_size,
-    pg_size_pretty(avg(pg_column_size(json))) as average_size,
-    sum(pg_column_size(json)) * 100.0 / pg_relation_size('table_name') as percentage
-from table_name;
+SELECT
+    pg_size_pretty(sum(pg_column_size(json))) AS total_size,
+    pg_size_pretty(avg(pg_column_size(json))) AS average_size,
+    sum(pg_column_size(json)) * 100.0 / pg_relation_size('table_name') AS percentage
+FROM table_name;
 
 SELECT
 percentile_disc(0.25) within group (order by table_name) p25,
@@ -48,9 +47,10 @@ max(table_name) max
 
 ## Indexes
 
-```
+```sql
 -- Show table indexes
-SELECT * FROM pg_indexes WHERE tablename='table_name' AND schemaname='schema_name';
+SELECT * FROM pg_indexes
+    WHERE tablename='table_name' AND schemaname='schema_name';
 
 -- Get all indexes from all tables of a schema
 SELECT
@@ -77,7 +77,7 @@ SELECT
 
 ## View Elements
 
-```
+```sql
 -- Show table indexes
 SELECT * FROM pg_indexes WHERE tablename='table_name' AND schemaname='schema_name';
 
@@ -96,7 +96,7 @@ SELECT * FROM pg_available_extension_versions;
 
 ## Configuration
 
-```
+```sql
 -- Show current user's statement timeout
 show statement_timeout;
 ```

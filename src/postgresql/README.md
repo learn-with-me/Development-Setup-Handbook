@@ -3,30 +3,17 @@
 1. [Installation](./local-installation.md) (local)
 2. Cheatsheet - [DB/Table Metrics](./tips/db-metrics.md)
 3. Cheatsheet - [DB Troubleshooting](./tips/troubleshooting.md)
-4. [Admin Commands](./admin-stuff.md)
+4. [Admin Commands](./administration/index.md)
 
-##### Popular GUI
+## Configure to start automatically
 
-```
-Postico - https://eggerapps.at/postico/
-Modern PostgreSQL client for Mac
-
-Psequel - http://www.psequel.com/
-
-pgAdmin - https://www.pgadmin.org/
-Most popular and feature rich Open Source administration and development platform for PostgreSQL.
-Designed to run on both client machines and on deployed servers, pgAdmin is capable of handling advanced
-cases that Postico cannot.
-https://www.pgadmin.org/docs/pgadmin4/dev/index.html
+```sh
+$ mkdir -p ~/Library/LaunchAgents
+$ ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+$ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 ```
 
-##### Configure to start automatically
-
-    $ mkdir -p ~/Library/LaunchAgents
-    $ ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
-    $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
-
-    if not installed via homebrew, it should looks like `com.postgresapp.Postgres2LoginHelper.plist`
+> Note: if not installed via homebrew, it should looks like `com.postgresapp.Postgres2LoginHelper.plist`
 
 ## References
 

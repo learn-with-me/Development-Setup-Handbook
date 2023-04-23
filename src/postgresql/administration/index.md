@@ -9,19 +9,18 @@
 their actual SQL commands. By default, Postgres automatically creates the user postgres. It also creates user for the
 account you are logged in.
 
-### Login to postgres server
+## Login to postgres server
 
-```
+```sh
 $ psql postgres                // Logs into psql command line
 $ psql postgres -U <username>  // Login with a username
 ```
 
-### Command line utilities
+## Command line utilities
 
-```
-Instead of logging into psql, executing SQL queries, and needing to know the details of the query statements, you can
-use a familiar command line interface to do the same tasks.
+Instead of logging into psql, executing SQL queries, and needing to know the details of the query statements, you can use a familiar command line interface to do the same tasks.
 
+```sh
 $ createuser            # creates a user
 $ createdb              # creates a database
 $ dropuser              # deletes a user
@@ -33,29 +32,33 @@ $ psql                  # Lets you carry administrative functions without needin
 $ initdb                # initialize a PostgreSQL data directory
 ```
 
-### psql Commands
+## psql Commands
 
-```
-> \du            # Displays a list of users installed by running a query internally
-> \q             # Quits the postgres console
+```sh
+# Displays a list of users installed by running a query internally
+> \du
 
-Setting password
-> \password <role>        # It'll ask you to enter the password
+# Quits the postgres console
+> \q
+
+# Setting password
+# It'll ask you to enter the password
+> \password <role>
 > \password postgres
 ```
 
-### Creating a new user
+## Creating a new user
 
-```
+```sh
 > CREATE ROLE admin WITH LOGIN PASSWORD 'admin'
 > ALTER ROLE admin CREATEDB
 OR
 > createuser admin --createdb
 ```
 
-### Create a new Database
+## Create a new Database
 
-```
+```sh
 > CREATE DATABASE databasename;
 > CREATE DATABASE super_awesome_application;
 OR
