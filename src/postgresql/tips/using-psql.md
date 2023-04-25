@@ -50,6 +50,7 @@ It's important to mention that the Postgres server should support SSL to use the
 ```sql
 -- Connect to another database
 # \c dbname
+# \c dbname username
 
 -- Quit from postgres shell
 # \q
@@ -116,3 +117,5 @@ It's important to mention that the Postgres server should support SSL to use the
 ## References
 
 - [Psql](https://www.postgresguide.com/utilities/psql/) | Postgres Guide
+- [Psql](https://www.postgresql.org/docs/current/app-psql.html) | PostgreSQL Client Applications
+- [psql command line tutorial and cheat sheet](https://tomcam.github.io/postgres/) | GitHub tomcam

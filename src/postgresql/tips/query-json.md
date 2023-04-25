@@ -1,4 +1,6 @@
-# Query Json
+# Query Jsonb
+
+JSONB is an on disk binary representatin of JSON, this means it’s more efficiently stored and indexable.
 
 ```sql
 -- Extracting an attribute
