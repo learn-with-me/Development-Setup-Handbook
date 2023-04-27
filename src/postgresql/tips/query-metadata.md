@@ -1,4 +1,4 @@
-# Query Elements
+# Query Metadata
 
 ## Indexes
 

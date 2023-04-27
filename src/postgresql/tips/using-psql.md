@@ -119,3 +119,4 @@ It's important to mention that the Postgres server should support SSL to use the
 - [Psql](https://www.postgresguide.com/utilities/psql/) | Postgres Guide
 - [Psql](https://www.postgresql.org/docs/current/app-psql.html) | PostgreSQL Client Applications
 - [psql command line tutorial and cheat sheet](https://tomcam.github.io/postgres/) | GitHub tomcam
+- [17 Practical psql Commands That You Don’t Want To Miss](https://www.postgresqltutorial.com/postgresql-administration/psql-commands/)
