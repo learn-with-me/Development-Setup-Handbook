@@ -16,6 +16,7 @@
 ```sql
 -- Prints current timestamp with timezone
 SELECT now();
+SELECT current_timestamp;
 
 -- Prints current timestamp without timezone
 SELECT NOW()::timestamp;
@@ -53,6 +54,12 @@ SELECT count(*)
     FROM users
     WHERE created_at >= (now() - interval '1 month');
 
+-- Extracting data from interval
+SELECT
+    EXTRACT (
+        MINUTE FROM INTERVAL '7 hours 33 minutes'
+    );
+
 -- Converting interval to string
 SELECT
     to_char(
@@ -70,6 +77,7 @@ SELECT
 ## References
 
 - https://www.postgresguide.com/tips/dates/
+- https://databasefaqs.com/postgresql-now-function
 - [Date input format](https://www.postgresql.org/docs/9.1/datatype-datetime.html#DATATYPE-DATETIME-DATE-TABLE) | Official doc
 - [Time input format](http://www.postgresql.org/docs/9.1/static/datatype-datetime.html#DATATYPE-DATETIME-TIME-TABLE) | Official doc
 - [Timezone input format](http://www.postgresql.org/docs/9.1/static/datatype-datetime.html#DATATYPE-TIMEZONE-TABLE) | Official doc
