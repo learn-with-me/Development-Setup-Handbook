@@ -1,5 +1,15 @@
 # Terms
 
+## mongod
+
+`mongod` is the primary daemon process for the MongoDB system. It handles data requests, manages data access, and performs background management operations.
+
+## mongosh
+
+`mongosh` is the shell for connecting to remote mongoDB instances. `mongosh` provides a powerful interface for systems administrators as well as a way for developers to test queries and operations directly with the database. Also provides a fully functional JavaScript environment for use with a MongoDB.
+
+## node.js
+
 In terms of Node.js, `mongodb` is the native driver for interacting with a mongodb instance.
 
 In terms of Node.js, `mongoose` is an Object modeling tool (a.k.a. ORM) for MongoDB. mongoose is built on top of the mongodb driver to provide programmers with a way to model their data.
