@@ -40,3 +40,4 @@ services:
 ## References
 
 * [Mongo](https://hub.docker.com/_/mongo) | Docker Hub
+* [Docker and MongoDB](https://www.mongodb.com/compatibility/docker) | MongoDB

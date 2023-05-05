@@ -1,17 +1,24 @@
 # MongoDB
 
-Go to the links below to get help on following topics.
+MongoDB is a NoSQL database system which stores data in the form of `BSON` documents. MongoDB uses JSON-like documents with [schemata](https://en.wikipedia.org/wiki/Database_schema).
 
-* [Installation](./01_installation.md)
+## Index
+
+Refer the links below to get help on following topics.
+
+* [Installation](./installation/README.md)
 * [Cheatsheet](./02_cheatsheet.md)
 
 ## Running Service
 
 ```sh
-# Run MongoD
+# Run mongod
 $ mongod
+```
 
-Begin using MongoDB
+## Begin using MongoDB
+
+```sh
 $ mongo --host 127.0.0.1:27017
 When you run mongo without any arguments, the mongo shell will attempt to connect to the MongoDB instance running on the
 localhost interface on port 27017
@@ -21,20 +28,6 @@ User's Home should have a file .mongorc.js
 mongo interprets the content of .mongorc.js before displaying the prompt for the first time.
 ```
 
-##### MongoDB Compass
+## References
 
-```
-Download and install Compass from the following link or google your way through
-https://www.mongodb.com/download-center?filter=enterprise#compass
-```
-
-##### MongoDB Atlas
-
-```
-MongoDB as a service. There is no local setup.
-You can access the service at the url below after you login.
-https://cloud.mongodb.com
-```
-
-
-
+* [Performance Difference in Mongoose vs MongoDB Native Driver](https://bugwheels94.medium.com/performance-difference-in-mongoose-vs-mongodb-60be831c69ad)
