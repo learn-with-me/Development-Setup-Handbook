@@ -1,4 +1,4 @@
-# Installation
+# Installing via Homebrew (MacOS)
 
 ## Install
 
@@ -19,27 +19,6 @@ Or, if you don't want/need a background service you can just run:
   mongod --config /usr/local/etc/mongod.conf
 ```
 
-## Verify
-
-```sh
-# Primary daemon process for the MongoDB system
-# It handles data requests, manages data access, and performs background management operations.
-$ mongod --version
-
-# Shell for connecting to remote MongoDB instances
-$ mongosh --version
-
-Provides a powerful interface for systems administrators as well as a way for developers to test queries and operations directly with the database. Also provides a fully functional JavaScript environment for use with a MongoDB.
-
-# To test the connection with the database, run below
-$ mongosh "mongodb://localhost:27017"
-
-# Explore all other database tools here:
-# https://www.mongodb.com/docs/database-tools/
-# or
-# https://github.com/mongodb/homebrew-brew
-```
-
 ## Start/Stop Service
 
 ```sh
@@ -50,6 +29,32 @@ $ mongod
 
 # Stop the database
 brew services stop mongodb-community
+```
+
+## Verify
+
+`mongod` is the primary daemon process for the MongoDB system. It handles data requests, manages data access, and performs background management operations.
+
+`mongosh` is the shell for connecting to remote mongoDB instances.
+
+```sh
+# Show current mongod version
+$ mongod --version
+
+# Show current mongosh version
+$ mongosh --version
+```
+
+`mongosh` provides a powerful interface for systems administrators as well as a way for developers to test queries and operations directly with the database. Also provides a fully functional JavaScript environment for use with a MongoDB.
+
+```sh
+# To test the connection with the database, run below
+$ mongosh "mongodb://localhost:27017"
+
+# Explore all other database tools here:
+# https://www.mongodb.com/docs/database-tools/
+# or
+# https://github.com/mongodb/homebrew-brew
 ```
 
 ## Write Directory
