@@ -68,4 +68,5 @@ To use a custom path, update this path in `mongod.conf` file.
 
 ## References
 
-* [MongoDB Shell](https://www.mongodb.com/docs/mongodb-shell/connect/)
+* [MongoDB Shell](https://www.mongodb.com/docs/mongodb-shell/connect/) | MongoDB
+* [mongodb/homebrew-brew](https://github.com/mongodb/homebrew-brew) | GitHub
