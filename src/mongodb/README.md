@@ -6,8 +6,8 @@ MongoDB is a NoSQL database system which stores data in the form of `BSON` docum
 
 Refer the links below to get help on following topics.
 
-* [Installation](./01_installation/README.md)
-* [Cheatsheet](./02_cheatsheet/README.md)
+* [Installation](./1._Installation/docker.md)
+* [Cheatsheet](./2._Cheatsheet/)
 
 ## Running Service
 

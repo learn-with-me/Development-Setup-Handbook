@@ -1,9 +1,9 @@
 # PostgreSQL
 
-1. [Installation](./installation.md) (local)
-2. Cheatsheet - [DB/Table Metrics](./tips/db-metrics.md)
-3. Cheatsheet - [DB Troubleshooting](./tips/troubleshooting.md)
-4. [Concepts](./concepts/index.md)
+1. [Installation](./1._Installation/via_docker.md) (local)
+2. Cheatsheet - [DB/Table Metrics](./3._tips/disk-usage.md)
+3. Cheatsheet - [DB Troubleshooting](./3._tips/troubleshooting.md)
+4. [Concepts](./2._concepts/index.md)
 
 ## Configure to start automatically
 
