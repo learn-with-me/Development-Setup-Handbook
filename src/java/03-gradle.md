@@ -39,6 +39,13 @@ $ ./gradlew -v
 $ ./gradlew tasks
 ```
 
+### Manage Process / Tasks
+
+```sh
+# Stop all running gradle processes
+$ ./gradlew --stop
+```
+
 ## Gradle Wrapper
 
 If existing Gradle-based build uses the Gradle Wrapper, you can easily upgrade by running the `wrapper` task, specifying the desired Gradle version:
