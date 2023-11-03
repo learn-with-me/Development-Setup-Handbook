@@ -13,6 +13,7 @@ https://docs.python.org/3.5/
 MacOS comes pre-installed with Python 2.x. If something goes wrong
 $ brew install python         // Installs Python 2.x
 $ brew install python3        // Installs Python 3.x
+$ brew install python@3.11    // Installs Python 3.11
 ```
 
 ##### Commands
@@ -24,7 +25,9 @@ $ python
 > import struct;print(struct.calcsize("P") * 8)    # Find if installed version is 32 bit or 64 bit
 ```
 
-#### Virtual Environment
+#### pyenv
+
+This is a tool that allows you to manage multiple versions of Python on your machine. It's not specifically designed for creating virtual environments, but it allows you to switch between different versions of Python on the fly.
 
 ```
 $ brew install pyenv
@@ -55,5 +58,7 @@ Colab allows you to write and execute Python in your browser
 https://colab.research.google.com/
 ```
 
+## Review Links
 
-
+* [Fast API](https://fastapi.tiangolo.com/)
+* [Using FastAPI to Build Python Web APIs](https://realpython.com/fastapi-python-web-apis/)

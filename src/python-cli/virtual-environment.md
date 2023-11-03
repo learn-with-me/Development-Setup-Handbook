@@ -1,14 +1,31 @@
 # Virtual Environment
 
-When it comes to Python, it is a good idea to work in a virtual environment. This way you'll never have to deal with version management in your local machine or cleaning up after your work is done.
+It is always a good idea to work in a virtual environment. This way you'll never have to deal with dependency version management in your local machine or cleaning up after your work is done. Sure, it does take more space on your disk, however the benefits far outweigh the cons.
+
+For each project, instead of installing the required packages globally, it is best to install them in an isolated folder within the project itself (commonly named `venv`). The advantage is that different projects might require different versions of packages, and it would be hard to manage that if you install packages globally. It also allows you to keep your global /usr/local/lib/python2.7/site-packages
+folder clean, containing only critical or big packages that you always need (like IPython, Numpy).
+
+## venv
+
+`venv` is a built-in virtual environment module in Python 3.3 and onwards, that allows you to create virtual environments in Python. It creates a new Python environment with its own site directories, which can be used to install and manage packages for specific projects. It's simple, lightweight, and easy to use.
+
+### Usage
+
+```sh
+# Create a new environment
+$ python3 -m venv <env_name>
+$ python3 -m venv venv
+
+# Active virtual environment
+$ source venv/bin/activate
+
+# To leave the virtual environment
+$ deactivate
+```
 
 ## VirtualEnv
 
-A tool that creates an isolated Python environment for each of your projects. For a particular project, instead of installing required packages globally, it is best to install them in an isolated folder in the project (say a folder named `venv`), that will be managed by virtualenv.
-
-The advantage is that different projects might require different versions of packages, and it would be hard to manage
-that if you install packages globally. It also allows you to keep your global /usr/local/lib/python2.7/site-packages
-folder clean, containing only critical or big packages that you always need (like IPython, Numpy).
+A third-party tool that creates an isolated Python environments. It works with both Python 2 and 3 and allows you to create virtual environments with different Python versions.
 
 ### Installation
 
@@ -82,3 +99,8 @@ $ source /usr/local/bin/virtualenvwrapper.sh
 ```
 
 Instructions:: [latest docs](http://virtualenvwrapper.readthedocs.io/en/latest/index.html)
+
+## Resources
+
+* [What is the difference between venv, pyvenv, pyenv, virtualenv, virtualenvwrapper, pipenv, etc?](https://pythonhow.com/what/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrapper-pipenv)
+* [Understanding Python virtual environments using venv and virtualenv](https://medium.com/@sukul.teradata/understanding-python-virtual-environments-using-venv-and-virtualenv-283f37d24b13)
