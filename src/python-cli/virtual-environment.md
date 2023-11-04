@@ -12,11 +12,14 @@ folder clean, containing only critical or big packages that you always need (lik
 ### Usage
 
 ```sh
-# Create a new environment
+# To run the venv module as a standalone program
+$ venv <env_name>
+
+# Create use the environment as a Python module
 $ python3 -m venv <env_name>
 $ python3 -m venv venv
 
-# Active virtual environment
+# Active virtual environment as current environment
 $ source venv/bin/activate
 
 # To leave the virtual environment
@@ -99,6 +102,10 @@ $ source /usr/local/bin/virtualenvwrapper.sh
 ```
 
 Instructions:: [latest docs](http://virtualenvwrapper.readthedocs.io/en/latest/index.html)
+
+## Other tools
+
+This combination of pip and venv is so common that people started combining them to save steps, and avoid that source shell wizardry. One such package is [pipenv](https://pipenv.pypa.io/), but a newer rival called [poetry](https://python-poetry.org/) is becoming more popular.
 
 ## Resources
 
