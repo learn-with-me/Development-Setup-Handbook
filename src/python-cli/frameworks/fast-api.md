@@ -27,3 +27,12 @@ FastAPI converts HTTP header keys ` to lowercase`, and dash (`-`) to underscore 
 By default, FastAPI converts whatever you return from your endpoint function `to JSON`.
 
 By default, FastAPI returns a `200` status code; exceptions raise `40x` codes.
+
+### Response Model
+
+It’s possible to have different classes with many of the same fields, except one is specialized for user input, one for output, and one for internal use:
+
+* Remove some sensitive information from output (like deidentifying personal medical data, if you’ve encountered HIPPA requirements).
+* Add fields to user input (like a creation date and time).
+
+You can return other data types than the default JSON from a FastAPI path function in different ways. One method is to use the `response_model` argument in the path decorator to goose FastAPI to return something else. FastAPI will drop any fields that were in the object that you returned but are not in the object specified by response_model.

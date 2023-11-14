@@ -62,3 +62,10 @@ https://colab.research.google.com/
 
 * [Fast API](https://fastapi.tiangolo.com/)
 * [Using FastAPI to Build Python Web APIs](https://realpython.com/fastapi-python-web-apis/)
+
+### Additional Readinings
+
+* [Clean Architectures in Python](https://www.thedigitalcatbooks.com/pycabook-introduction/) by Leonardo Giordani (Digital Cat Books)
+* [Architecture Patterns with Python](https://www.cosmicpython.com/) by Harry J.W. Percival and Bob Gregory (O’Reilly)
+* [Microservice APIs](https://www.manning.com/books/microservice-apis) by José Haro Peralta (Manning)
+* [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) | Wikipedia

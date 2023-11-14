@@ -1,3 +1,10 @@
+---
+tags:
+  - python-package
+  - code-quality
+  - type-check
+---
+
 # mypy
 
-`mypy` - standard type checker
+[mypy](https://mypy.readthedocs.io/en/stable/) is a standard type checker, to catch incorrect types assigned to variables.
