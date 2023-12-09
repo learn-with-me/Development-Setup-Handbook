@@ -6,8 +6,9 @@
 
 ## Common Commands
 
-```
-git clean -fxd                # remove all untracked files
+```sh
+# remove all untracked files
+$ git clean -fxd
 ```
 
 ## References

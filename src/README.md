@@ -39,8 +39,8 @@ This book acts as a reference guide to common commands. You may or may not see t
 
 Refer `/docs/CONTRIBUTING.md` in the repo for making contributions to the template.
 
-- Issue Tracker: https://github.com/goel4ever/Development-Setup-Handbook/issues
-- Source Code: https://github.com/goel4ever/Development-Setup-Handbook
+- [Issue Tracker](https://github.com/learn-with-me/Development-Setup-Handbook/issues)
+- [Source Code](https://github.com/learn-with-me/Development-Setup-Handbook)
 
 Support
 -------
