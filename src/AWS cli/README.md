@@ -15,9 +15,9 @@
 $ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 $ sudo installer -pkg AWSCLIV2.pkg -target /
 
-The `-o` option specifies the file name that the downloaded package is written to. In this example, the file is written to AWSCLIV2.pkg in the current folder.
+The `-o` option specifies the file name that the downloaded package is written to, in the current folder.
 
-Verify installation
+# Verify installation
 $ which aws
 $ aws --version
 ```
