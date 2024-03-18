@@ -9,21 +9,21 @@
 
 ## Installation & Setup
 
-```
+```sh
 $ brew install buildkit
 ```
 
 You need to run buildkitd as the root user on the host.
-```
+```sh
 $ sudo buildkitd
 
-Verify installation
+# Verify installation
 $ buildctl -h
 ```
 
 ## Building a Dockerfile with buildctl
 
-```
+```sh
 buildctl build \
     --frontend=dockerfile.v0 \
     --local context=. \

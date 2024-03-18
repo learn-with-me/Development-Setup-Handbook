@@ -1,4 +1,4 @@
-# Docker Compose Cheatsheet
+# Docker Compose cheat sheet
 
 ```shell
 $ docker-compose up -d

@@ -172,7 +172,40 @@ docker container rm bb655989064b
 docker container rm -f bb655989064b
 ```
 
-> You need to be able to expose ports and attach volumes, so that it can deploy .war files to it.
+> You need to be able to expose ports and attach volumes, so that it can deploy `.war` files to it.
+
+## Network Settings
+
+```sh
+# Set custom dns servers for the container
+--dns=[]
+
+# Connect a container to a network
+--network="bridge"
+    'bridge': create a network stack on the default Docker bridge
+    'none': no networking
+    'container:<name|id>': reuse another containers network stack
+    'host': use the Docker host network stack
+    '<network-name>|<network-id>': connect to a user-defined network
+
+# Add network-scoped alias for the container
+--network-alias=[]
+
+# Add a line to /etc/hosts (host:IP)
+--add-host=""
+
+# Sets the container's Ethernet device's MAC address
+--mac-address=""
+
+# Sets the container's Ethernet device's IPv4 address
+--ip=""
+
+# Sets the container's Ethernet device's IPv6 address
+--ip6=""
+
+# Sets one or more container's Ethernet device's link local IPv4/IPv6 addresses
+--link-local-ip=[]
+```
 
 ## Reference
 
