@@ -9,8 +9,8 @@ https://docs.python.org/3.5/
 
 ##### Installation
 
-```
-MacOS comes pre-installed with Python 2.x. If something goes wrong
+```sh
+# MacOS comes pre-installed with Python 2.x. If something goes wrong
 $ brew install python         // Installs Python 2.x
 $ brew install python3        // Installs Python 3.x
 $ brew install python@3.11    // Installs Python 3.11
@@ -18,18 +18,20 @@ $ brew install python@3.11    // Installs Python 3.11
 
 ##### Commands
 
-```
-$ python -m site --user-base            // Find the user base binary directory
+```sh
+# Find the user base binary directory
+$ python -m site --user-base
 
 $ python
-> import struct;print(struct.calcsize("P") * 8)    # Find if installed version is 32 bit or 64 bit
+# Find if installed version is 32 bit or 64 bit
+> import struct;print(struct.calcsize("P") * 8)
 ```
 
 #### pyenv
 
 This is a tool that allows you to manage multiple versions of Python on your machine. It's not specifically designed for creating virtual environments, but it allows you to switch between different versions of Python on the fly.
 
-```
+```sh
 $ brew install pyenv
 $ eval "$(pyenv init -)"
 
@@ -37,14 +39,15 @@ $ brew install pyenv-virtualenv
 $ eval "$(pyenv virtualenv-init -)"
 
 $ pyenv virtualenv venv27
-$ pyenv virtualenvs            // shows you the list of existing virtualenvs and conda environments
+# shows you the list of existing virtualenvs and conda environments
+$ pyenv virtualenvs
 
 $ pyenv shell venv27
 ```
 
 #### Anaconda
 
-```
+```sh
 $ conda create -n py36 python=3.6 anaconda
 $ conda activate py36
 or

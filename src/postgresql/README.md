@@ -17,7 +17,9 @@ $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 
 ## References
 
-1. [Source Tutorial](https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx)
-2. http://www.postgresqltutorial.com/
-3. https://www.postgresguide.com/tips/dates/
-4. Cheatsheet - https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546
+1. [Postgres](https://www.postgresql.org/docs/current/functions-json.html) - Json functions | Official docs
+2. [Safe and unsafe operations for high volume PostgreSQL](https://leopard.in.ua/2016/09/20/safe-and-unsafe-operations-postgresql)
+3. [Source Tutorial](https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx)
+4. http://www.postgresqltutorial.com/
+5. [Postgres Guide](https://www.postgresguide.com/tips/dates/) - tips on dates
+6. Cheatsheet - https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546

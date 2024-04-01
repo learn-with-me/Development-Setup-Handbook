@@ -6,6 +6,12 @@ Ansible is an open source, command-line IT automation software application writt
 
 Ansible Builder is a tool that aids in the creation of Ansible Execution Environments. The builder creates consistent and reproducible automation execution environments.
 
+## Ansible Semaphore
+
+[Ansible Semaphore](https://snapcraft.io/semaphore) is beautiful web interface for running Ansible playbooks. If your project has grown and deploying from the terminal is no longer for you then Ansible Semaphore is what you need.
+
+* YT [This web UI for Ansible is so damn useful!](https://www.youtube.com/watch?v=NyOSoLn5T5U&ab_channel=ChristianLempa) | ChristianLempa
+
 ## Event-driven Ansible
 
 Event-Driven Ansible provides the event-handling capability needed to automate time-consuming tasks and respond to changing conditions in any IT domain. 

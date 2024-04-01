@@ -5,5 +5,8 @@
 $ docker stats
 
 # output a JSON object that describes the configuration of the container
-$ docker inspect <container_id>
+$ docker inspect $CONTAINER
+
+# Get hash for the image
+docker inspect --format='{{index .RepoDigests 0}}' $IMAGE
 ```

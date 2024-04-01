@@ -4,8 +4,12 @@ In order for kubectl to find and access a Kubernetes cluster, it needs a kubecon
 
 Check that kubectl is properly configured by getting the cluster state:
 
-```
+```sh
+# cluster information in the current context
 $ kubectl cluster-info
+$ kubectl config current-context
+
+# URL response means kubectl is correctly configured to access your cluster.
 ```
 
 If you see the connection refused to the cluster, then either kubectl is not configured correctly or docker is not up.

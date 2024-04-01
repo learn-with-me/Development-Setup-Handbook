@@ -9,11 +9,10 @@
 7. [Docker Containers](./tips/handling-docker-containers.md)
 8. [Persistent Storage](./tips/handling-persistent-storage.md)
 9. [Resource Clean up](./tips/handling-cleanup.md)
-10. 
-11. Example [Nginx with Volume](./recipes/nginx-with-volume.md)
-12. Example [Nodejs Web Server w/ Proxy](./recipes/nodejs-web-server-with-proxy.md)
-13. Example [Build Custom Docker Image](./recipes/building-custom-docker-image.md)
-14. [BuildKit](./buildkit.md)
+10. Example [Nginx with Volume](./recipes/nginx-with-volume.md)
+11. Example [Nodejs Web Server w/ Proxy](./recipes/nodejs-web-server-with-proxy.md)
+12. Example [Build Custom Docker Image](./recipes/building-custom-docker-image.md)
+13. [BuildKit](./buildkit.md)
 
 ## Good to know
 

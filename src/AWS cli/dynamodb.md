@@ -46,7 +46,9 @@ $ aws dynamodb put-item \
 
 ## References
 
-* [Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html) | Official guide
+* [Amazon DynamoDB Introduction](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html) | Official guide
+    * [Data Modeling](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/data-modeling.html) | DynamoDB Official guide
+    * [Best Practices](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html) | DynamoDB Official guide
 * [DynamoDB Guide](https://www.dynamodbguide.com/key-concepts)
 * [LocalStack](https://github.com/localstack/localstack) | GitHub
 * [DynamoDB](https://docs.localstack.cloud/user-guide/aws/dynamodb/) | LocalStack
