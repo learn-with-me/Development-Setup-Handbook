@@ -79,11 +79,8 @@ With an `ObjectOutputStream` an object can be written to disk and will remain th
 * `.readLine()`
 * `.readLines()`
 
+## TODO
 
-* Readers and Writers (ReadStream and WriteStream)
-* InputStreams and OutputStreams
-* Character data and UTF
-* Processing Streams
 * Handling large files
 * Sync vs Async reads/writes
 * JSONStream, GZIPStream

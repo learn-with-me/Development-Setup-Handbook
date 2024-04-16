@@ -2,7 +2,7 @@
 
 ### List files and directories
 
-```
+```sh
 $ ls -l
 
 -l    # long listing of files
@@ -12,7 +12,7 @@ $ ls -l
 
 ### View contents of a file
 
-```
+```sh
 $ cat <file_name>
 -n    # show line numbers
 
@@ -32,22 +32,22 @@ $ open <file> -a TextEdit # opens the file in specific application
 
 ### Create and Delete a file/folder
 
-```
-Create a file
+```sh
+# Create a file
 $ touch file.txt
 
-Write to a file
+# Write to a file
 $ echo 'hi' > file.txt    # Overwrite previous content of a file if exists or create a new file
 $ echo 'hi' >> file.txt   # Writes to file in append mode
 
-Delete a file
+# Delete a file
 $ rm file.txt
 
-Create a folder
+# Create a folder
 $ mkdir folder
 $ mkdir -p a/b/c        # p flag lets us create intermediary directories defined in the path
 
-Delete a directory
+# Delete a directory
 $ rm -rf folder         # recursively removes the folder and everything in it.
                           f forces not to ask for confirmation of removing the directory and contents
 

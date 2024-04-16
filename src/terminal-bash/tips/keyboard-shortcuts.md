@@ -1,7 +1,7 @@
 # Keyboard Shortcuts
 
-```
-When typing in bash shell, say you're typing in a really long line, press -
+```sh
+# When typing in bash shell, say you're typing in a really long line, press -
 
 Ctrl + a    - To go to start of the line
 Ctrl + e    - To go to end of the line

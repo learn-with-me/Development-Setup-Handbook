@@ -5,12 +5,6 @@ A wrapper around VMs like V8/Chakra with built-in modules \(fs, http, crypto, zi
 * Node ships with a reliable package manager \(_NPM_\) and it works with the NPM register \(hosted at npmjs.org\)
 * Node has a reliable module dependency manager \(referred to as _CommonJS_\). This is basically the "_require_" function in Node, combined with the "_module_" object.
 
-#### Commands available with installation
-
-* node
-* npm
-* npx
-
 #### Modern JavaScript
 
 ##### Scopes
@@ -32,29 +26,6 @@ A wrapper around VMs like V8/Chakra with built-in modules \(fs, http, crypto, zi
 
 ```
 
-#### Frameworks
-
-```
-express.js
-nest.js
-koa.js
-hapi.js
-sail.js
-partial.js
-total.js
-fastify.js
-
-source:
-https://codebrahma.com/9-best-node-js-frameworks-developers/
-https://medium.com/car2godevs/there-are-expressjs-alternatives-590d14c58c1c
-```
-
-#### Libraries
-
-```
-immutable.js
-```
-
 ## Installation Path
 
 ```
@@ -65,9 +36,18 @@ NPM     - /usr/local/bin/npm
 ## References
 
 - http://sourabhbajaj.com/mac-setup/Node.js/
-- https://nodejs.org/dist/latest-v8.x/docs/api/
-- https://nodejs.org/docs/v6.9.2/api/
+- https://nodejs.org/dist/latest/docs/api/
+- https://nodejs.org/docs/latest-v18.x/api/index.html
 - https://nodejs.org/en/docs/guides/
+
+## New Reference Topics
+
+- https://v8.dev/blog/cost-of-javascript-2019#json
+- https://v8.dev/features/import-assertions
+- https://nodejs.org/docs/latest-v18.x/api/esm.html#modules-ecmascript-modules
+- https://nodejs.org/docs/latest-v18.x/api/packages.html#determining-module-system
+- https://nodejs.org/es/blog/npm/peer-dependencies/
+- https://swc.rs/
 
 ## Contributing
 https://nodejs.org/en/get-involved/

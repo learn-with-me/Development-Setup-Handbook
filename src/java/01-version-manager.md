@@ -70,3 +70,4 @@ $ sdk current
 ## References
 
 * SDKMan [usage](https://sdkman.io/usage)
+* [jenv](https://www.jenv.be/)
