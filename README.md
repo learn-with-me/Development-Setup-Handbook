@@ -41,6 +41,9 @@ This book acts as a reference guide to common commands. You may or may not see t
 $ source scripts/setup.sh
 ```
 
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/learn-with-me/Development-Setup-Handbook.svg?variant=adaptive)](https://starchart.cc/learn-with-me/Development-Setup-Handbook)
+
 ## Contribution
 
 Refer [contributing guidelines](./docs/CONTRIBUTING.md) for making contributions to the template.
