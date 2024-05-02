@@ -29,6 +29,3 @@ coverage
 pids
 *.pid
 *.seed
-
-# Local Temp Notes
-REVIEW_FIRST.md
