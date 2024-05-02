@@ -11,8 +11,8 @@ There is no need for additional installation steps. It gets installed automatica
 ```sh
 # Option 4 -- Installs or updated NVM (Node Version Manager)
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.7/install.sh | bash
-$ nvm install 8              # install node 8
-$ nvm alias default 8        # to make node 8 the default
+$ nvm install 21              # install node 21
+$ nvm alias default 21        # to make node 21 the default
 ```
 
 ### Cheatsheet
