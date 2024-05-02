@@ -13,7 +13,11 @@ Just like `git`, `pnpm` stores the delta between different versions of the same 
 ## Installation
 
 ```sh
+# Using brew
 $ brew install pnpm
+
+# Using npm
+$ npm install -g pnpm
 ```
 
 ## Usage
