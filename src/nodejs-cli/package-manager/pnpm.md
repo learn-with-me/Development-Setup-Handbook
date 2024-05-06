@@ -24,6 +24,20 @@ $ npm install -g pnpm
 
 Very similar to `npm` usage. Refer [this](https://pnpm.io/pnpm-cli)
 
+```sh
+# Update all packages in your project
+pnpm update
+
+# Identify the dependency that depend on a packages
+pnpm list [package-name]
+
+# Check for newer versions of a package
+pnpm outdated [package-name]
+
+# Update package to a specific version
+pnpm add [package-name]@[version]
+```
+
 ## Resources
 
 - Official [docs](https://pnpm.io/motivation)
