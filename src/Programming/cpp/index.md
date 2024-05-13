@@ -1,5 +1,23 @@
 # C++
 
+There is no installation needed.
+Make sure you have XCode command line tools installed
+
+```sh
+# Version of C++ installed
+$ c++ --version
+```
+
+## Compiling files
+
+To be able to compile files from your terminal you can add the following alias in your bash profile.
+
+```sh
+alias cppcompile='c++ -std=c++11 -stdlib=libc++'
+```
+
+Then you can run all cpp file directly using cppcompile main.cpp and it will use C++11 so no errors in the case of using vectors, auto, sets etc.
+
 ## Project Resources
 
 * [How to program a game in C++: #0 - Introduction and Setup](https://www.youtube.com/watch?v=luuyjjOxnUI&list=PL7Ej6SUky135IAAR3PFCFyiVwanauRqj3&index=1&ab_channel=DanZaidan) | YT DanZaidan (good explanation)
