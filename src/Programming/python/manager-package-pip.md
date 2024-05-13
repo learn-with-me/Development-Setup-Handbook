@@ -44,7 +44,7 @@ $ pip install biopython
 $ pip install jupyter
 ```
 
-> Note: If you already have a `requirements.txt` file listing all desired depedencies, then run `$ pip install -r requirements.txt` or `$ pip install --requirement requirements.txt`.
+> Note: If you already have a `requirements.txt` file listing all desired dependencies, then run `$ pip install -r requirements.txt` or `$ pip install --requirement requirements.txt`.
 
 Additional options:
 
@@ -72,4 +72,4 @@ $ pip install --no-index --find-links=[file://]<DIR> -r requirements.txt
 * Installed desired dependencies in the virtual environment
 * Call `$pip freeze > requirements.txt` to export all installed dependencies into the file.
 
-> Note: once you export all dependencies, it may require some cleanup because of previously installed dependencies in the source copy of python depdencies.
+> Note: once you export all dependencies, it may require some cleanup because of previously installed dependencies in the source copy of python dependencies.

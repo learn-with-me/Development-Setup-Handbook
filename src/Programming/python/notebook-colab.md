@@ -1,25 +1,4 @@
-# Notebook
-
-## Jupyter Notebook
-
-### Installation
-
-```sh
-$ pip install notebook
-```
-
-### Running
-
-```sh
-# Running Notebook
-$ jupyter notebook
-```
-
-Jupyter Notebooks are stored in the directory from which you launched the Jupyter Notebook server.
-
-In the address bar, type [localhost:8888](http://localhost:8888) and press Enter. This is the default address for Jupyter Notebook. If you have changed the port number during the installation or startup of Jupyter Notebook, replace 8888 with your port number.
-
-## Colab
+# Google Colab
 
 Colab, short for Google Colaboratory, is a free cloud service based on Jupyter Notebooks for machine learning education and research. It provides a platform where you can use and share Jupyter notebooks with others without having to download, install, or run anything on your own computer.
 
