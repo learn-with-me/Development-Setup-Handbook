@@ -1,12 +1,10 @@
 # Merge vs Rebase
 
-> Note: This page does not cover all possible scenarios, but only commonly used strategies.
-
-Your master/main branch should be the only source of truth for your application.
+Your `main` branch should be the only source of truth for your application.
 
 Generally, you'll create a new branch off of your main branch, add new features in your local branch, create a pull request to the main branch, and then merge your code. When you're pushing new code to you main branch, you'd want to `merge` your changes in the main branch. This is because you are creating new commits.
 
-Every once in a while, before you merge your changes in main branch, you want your local branch to be up to date with the master/main branch. You local branch can get behind the main branch when more than one developer is working on the project. To catch up your local branch with the new commits in main branch, you'd use a strategy called `rebase`. You should never merge commits from your main branch to your local branch, because those commits were already accepted in your main branch, and your main branch is supposed to be the only source of truth. 
+Every once in a while, before you merge your changes in main branch, you want your local branch to be up to date with the `main` branch. You local branch can get behind the main branch when more than one developer is working on the project. To catch up your local branch with the new commits in main branch, you'd use a strategy called `rebase`. You should never merge commits from your main branch to your local branch, because those commits were already accepted in your main branch, and your main branch is supposed to be the only source of truth. 
 
 ## Git Merge
 

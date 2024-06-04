@@ -1,12 +1,12 @@
 # Git Installation
 
 ## Verify
-```
+
+```sh
 $ git --version
-```
-If git is intalled locally, you'll see something like 
-```
-git version 2.24.3 (Apple Git-128)
+
+# If git is installed locally, you'll see something like 
+# git version 2.24.3 (Apple Git-128)
 ```
 
 ## Installation
