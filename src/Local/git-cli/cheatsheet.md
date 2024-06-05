@@ -45,6 +45,11 @@ $ git diff --cached
 # Create new commit that undoes all of the changes made in <commit>, then apply
 $ git revert <commit>
 
+# Discard changes in working directory or the staging area
+$ git restore <file>
+# Restore myfile.txt in staging area and working directory to the state of last commit (HEAD)
+$ git restore --source=HEAD --staged --worktree myfile.txt
+
 # Reset staging area to match most recent commit, but leave code unchanged
 $ git reset
 # Remove <file> from staging area
@@ -55,6 +60,8 @@ $ git reset --hard
 $ git reset <commit>
 # Move current branch tip backward to <commit>, reset staging area as well as local code
 $ git reset --hard <commit>
+# Move HEAD (and the branch pointer) one commit back, discarding the last commit and all changes in the staging area and the working directory
+$ git reset --hard HEAD~1
 
 # Remove untracked files from your working directory
 $ git clean
