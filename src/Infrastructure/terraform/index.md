@@ -16,6 +16,21 @@ $ terraform -help
 $ terraform -version
 ```
 
+### Version Manager
+
+`tfenv`, a Terraform version manager, to install a specific version of Terraform. 
+
+```sh
+# Install tfenv
+$ brew install tfenv
+
+# Install Terraform 1.4.6 using tfenv:
+$ tfenv install 1.4.6
+
+# Set Terraform 1.4.6 as the global version:
+$ tfenv use 1.4.6
+```
+
 ### Plugin
 
 ```sh

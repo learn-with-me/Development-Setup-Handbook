@@ -18,12 +18,6 @@ $ minikube version
 $ minikube start
 ```
 
-## Helm
-
-```sh
-$ brew install kubernetes-helm
-```
-
 ## References
 
 * https://labs.play-with-k8s.com/
